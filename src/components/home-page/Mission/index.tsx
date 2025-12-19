@@ -14,16 +14,17 @@ const index = () => {
           className="font-[700] text-[25px] leading-[150%] tracking-[0] text-center mb-[30px]"
           id="lato-font"
         >
-          American Legion Post 209 serves veterans, active military, and their families through
-          mutual helpfulness, community service, and dedication to Americanism.
+          Nittany American Legion Post 245 serves veterans, active military, and their families
+          through mutual helpfulness, community service, and dedication to Americanism.
         </p>
         <p
           className="font-[500] text-[25px] leading-[150%] tracking-[0] text-center"
           id="lato-font"
         >
-          Founded in 1975 and chartered in 1976 as Templeton Gap Post 209 to honor the U.S.
-          Bicentennial and Colorado Centennial, we were renamed in 2016 to honor Neal Thomas Jr., a
-          Korean and Vietnam War veteran who dedicated his life to serving fellow veterans.
+          Chartered on October 19, 1919, with Theodore D. Boal as our first commander, we have been
+          proudly serving the State College and Centre County community for over 100 years. Known
+          locally as &quot;The Legion in the Woods,&quot; our post at 1950 Pine Hall Road is a
+          historic gathering place providing camaraderie and support to those who served.
         </p>
       </div>
 

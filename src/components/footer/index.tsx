@@ -12,29 +12,29 @@ const Footer: React.FC = () => {
   const socialLinks = [
     {
       icon: FaFacebookF,
-      href: 'https://www.facebook.com/AmericanLegionCentennialPost209',
+      href: 'https://www.facebook.com/people/American-Legion-Post-245/100064092967036/',
       label: 'Facebook',
     },
-    { icon: FaXTwitter, href: 'https://x.com/ALPost209', label: 'X (Twitter)' },
+    { icon: FaXTwitter, href: 'https://x.com/ALPost245', label: 'X (Twitter)' },
   ]
   return (
     <footer className="bg-black text-white">
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 py-12 px-4 md:px-6 lg:px-8">
         {/* Column 1: About Post */}
         <div className="space-y-6 px-4 sm:px-0">
-          <h3 className="text-[28px] text-white">About Post 209</h3>
+          <h3 className="text-[28px] text-white">About Post 245</h3>
 
           <div className="space-y-4">
             <p className="text-[16px] font-[400]" id="lato-font">
-              American Legion Neal Thomas Jr. Centennial Post 209 serves veterans, active military,
-              and their families in Colorado Springs. Founded in 1975, we are the largest American
-              Legion post in Colorado.
+              Nittany American Legion Post 245, known as &quot;The Legion in the Woods,&quot; serves
+              veterans, active military, and their families in State College and Centre County,
+              Pennsylvania.
             </p>
 
             <p className="text-[16px] font-[400]" id="lato-font">
-              We honor the legacy of Neal Thomas Jr., a Korean and Vietnam War veteran who dedicated
-              his life to helping fellow veterans find employment, housing, and rehabilitation
-              services.
+              Chartered on October 19, 1919, with Theodore D. Boal as our first commander, we
+              celebrated our 100th anniversary in 2019. Our post at 1950 Pine Hall Road is a
+              historic gathering place providing camaraderie, support, and community service.
             </p>
           </div>
         </div>
@@ -100,11 +100,11 @@ const Footer: React.FC = () => {
               <div>
                 <p className="font-[500] text-[22px]">E-mail</p>
                 <a
-                  href="mailto:info@legion209.org"
+                  href="mailto:info@post245.com"
                   className="font-[500] text-[15px] hover:text-[#FFD700] transition-colors break-all"
                   id="aria-font"
                 >
-                  info@legion209.org
+                  info@post245.com
                 </a>
               </div>
             </div>
@@ -114,17 +114,17 @@ const Footer: React.FC = () => {
               <div>
                 <p className="font-[500] text-[22px]">Call Us</p>
                 <a
-                  href="tel:7195910839"
+                  href="tel:8142376880"
                   className="font-[500] text-[16px] hover:text-[#FFD700] transition-colors"
                   id="aria-font"
                 >
-                  (719) 591-0839
+                  (814) 237-6880
                 </a>
               </div>
             </div>
 
             <a
-              href="https://www.google.com/maps/search/?api=1&query=5220+N+Nevada+Ave+Colorado+Springs+CO+80918"
+              href="https://www.google.com/maps/search/?api=1&query=1950+Pine+Hall+Road+State+College+PA+16801"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Open address in Google Maps"
@@ -134,9 +134,9 @@ const Footer: React.FC = () => {
               <div>
                 <p className="font-[500] text-[22px]">Address</p>
                 <p className="font-[500] text-[16px]" id="aria-font">
-                  5220 N Nevada Ave
+                  1950 Pine Hall Road
                   <br />
-                  Colorado Springs, CO 80918
+                  State College, PA 16801
                 </p>
               </div>
             </a>
@@ -164,9 +164,7 @@ const Footer: React.FC = () => {
         className="mt-12 py-6 px-4 border-t border-gray-800 text-center text-[18px] font-[500] w-full"
         id="aria-font"
       >
-        <p>
-          © {currentYear} American Legion Neal Thomas Jr. Centennial Post 209 | For God and Country
-        </p>
+        <p>© {currentYear} Nittany American Legion Post 245 | For God and Country</p>
       </div>
     </footer>
   )

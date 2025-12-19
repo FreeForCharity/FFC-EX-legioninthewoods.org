@@ -12,7 +12,7 @@ const index = () => {
           Frequently Asked Questions
         </h1>
         <div>
-          <FrequentlyAskedQuestions title="Who can join American Legion Post 209?">
+          <FrequentlyAskedQuestions title="Who can join American Legion Post 245?">
             <p className="mb-[20px]">
               Membership is open to all honorably discharged veterans who served on active duty
               during wartime periods as defined by Congress. This includes veterans from all
@@ -29,11 +29,25 @@ const index = () => {
               >
                 American Legion eligibility page
               </a>{' '}
-              or contact our post directly.
+              or contact our post directly at (814) 237-6880.
             </p>
           </FrequentlyAskedQuestions>
 
-          <FrequentlyAskedQuestions title="What is the mission of American Legion Post 209?">
+          <FrequentlyAskedQuestions title="What is the history of Post 245?">
+            <p className="mb-[20px]">
+              Nittany American Legion Post 245, known as &quot;The Legion in the Woods,&quot;
+              received its charter on October 19, 1919, with Theodore D. Boal as our first
+              commander. We have been continuously serving veterans and the State College/Centre
+              County community for over 100 years, celebrating our centennial in August 2019.
+            </p>
+            <p>
+              Our location at 1950 Pine Hall Road is nestled in a beautiful wooded area, which
+              inspired our nickname. The post operates as a community hub providing camaraderie,
+              support, and great food to those who served and their families.
+            </p>
+          </FrequentlyAskedQuestions>
+
+          <FrequentlyAskedQuestions title="What is the mission of American Legion Post 245?">
             <p className="mb-[20px]">
               Our mission is rooted in the Four Pillars of the American Legion: Veterans Affairs &
               Rehabilitation, National Security, Americanism, and Children & Youth. We serve
@@ -41,106 +55,109 @@ const index = () => {
               service.
             </p>
             <p>
-              We honor the legacy of Neal Thomas Jr., a Korean and Vietnam War veteran who dedicated
-              his life to helping fellow veterans find employment, housing, and rehabilitation
-              services.
+              Beyond our American Legion activities, we also operate a restaurant and bar that
+              serves as a gathering place for members, their families, social members, and the
+              public for lunch.
             </p>
           </FrequentlyAskedQuestions>
 
-          <FrequentlyAskedQuestions title="What programs does Post 209 offer?">
+          <FrequentlyAskedQuestions title="What programs and activities does Post 245 offer?">
             <p>We offer a wide range of programs including:</p>
             <ul className="list-disc list-inside mt-2 space-y-2">
-              <li>Final Honors and Honor Guard services for veterans</li>
               <li>Veterans benefits assistance and advocacy</li>
-              <li>Youth programs: Boys State, American Legion Baseball, Junior Shooting Sports</li>
-              <li>Scholarship opportunities</li>
+              <li>Youth programs: Boys State, American Legion Baseball</li>
+              <li>Scout Troop 245 sponsorship</li>
+              <li>Auxiliary Unit 245 for family members</li>
+              <li>S.A.L. (Sons of the American Legion) Squadron 245</li>
+              <li>Legion Riders Chapter 245</li>
               <li>Community service and patriotic ceremonies</li>
-              <li>Support for homeless veterans</li>
-              <li>Hospital visits and blood drives</li>
+              <li>Restaurant and bar with daily specials</li>
+              <li>Social events: Music Bingo, Red Cross Blood Drives, and more</li>
             </ul>
           </FrequentlyAskedQuestions>
 
-          <FrequentlyAskedQuestions title="When does Post 209 meet?">
+          <FrequentlyAskedQuestions title="When does Post 245 meet?">
             <p>
-              Post meetings are held monthly. For the current meeting schedule, please contact the
-              post at{' '}
-              <a href="tel:7195910839" className="text-[#002D62] underline hover:text-[#BF0D3E]">
-                (719) 591-0839
+              Post meetings are held regularly. For the current meeting schedule and upcoming
+              events, please contact the post at{' '}
+              <a href="tel:8142376880" className="text-[#002D62] underline hover:text-[#BF0D3E]">
+                (814) 237-6880
               </a>{' '}
-              or{' '}
+              or visit our website at{' '}
               <a
-                href="mailto:info@legion209.org"
+                href="http://www.post245.com"
                 className="text-[#002D62] underline hover:text-[#BF0D3E]"
+                target="_blank"
+                rel="noopener noreferrer"
               >
-                info@legion209.org
+                www.post245.com
               </a>
               .
             </p>
           </FrequentlyAskedQuestions>
 
-          <FrequentlyAskedQuestions title="How can I request Honor Guard services?">
-            <p className="mb-[20px]">
-              Our Honor Guard provides dignified military funeral honors for veterans. We
-              participate in Final Honors ceremonies, community parades, and patriotic events
-              throughout the year.
-            </p>
+          <FrequentlyAskedQuestions title="Where is Post 245 located?">
             <p>
-              To request Honor Guard services for a veteran&apos;s funeral or memorial service,
-              please contact our post as soon as possible. We strive to honor every veteran with the
-              respect and recognition they deserve.
-            </p>
-          </FrequentlyAskedQuestions>
-
-          <FrequentlyAskedQuestions title="What is the history of Post 209?">
-            <p className="mb-[20px]">
-              American Legion Post 209 was founded in 1975 and chartered in 1976 as Templeton Gap
-              Post 209, honoring the U.S. Bicentennial and Colorado Centennial. We are now the
-              largest American Legion post in Colorado.
-            </p>
-            <p>
-              In 2016, the post was renamed to honor Neal Thomas Jr., an Air Force veteran of the
-              Korean and Vietnam Wars. Neal served as Post Commander, Department Commander, and
-              National Executive Committeeman, dedicating his life to serving fellow veterans.
-            </p>
-          </FrequentlyAskedQuestions>
-
-          <FrequentlyAskedQuestions title="How can I support Post 209?">
-            <p>There are many ways to support our post and its mission:</p>
-            <ul className="list-disc list-inside mt-2 space-y-2">
-              <li>Become a member and actively participate in post activities</li>
-              <li>Make a donation to support post operations and programs</li>
-              <li>Sponsor youth programs or scholarships</li>
-              <li>Volunteer for community service events</li>
-              <li>Support our Honor Guard with equipment donations</li>
-              <li>Attend post meetings and events</li>
-            </ul>
-          </FrequentlyAskedQuestions>
-
-          <FrequentlyAskedQuestions title="Where is Post 209 located?">
-            <p>
-              American Legion Post 209 is located at:
+              American Legion Post 245 is located at:
               <br />
-              <strong>5220 N Nevada Ave, Colorado Springs, CO 80918</strong>
+              <strong>1950 Pine Hall Road, State College, PA 16801</strong>
               <br />
               <br />
               Phone:{' '}
-              <a href="tel:7195910839" className="text-[#002D62] underline hover:text-[#BF0D3E]">
-                (719) 591-0839
+              <a href="tel:8142376880" className="text-[#002D62] underline hover:text-[#BF0D3E]">
+                (814) 237-6880
               </a>
               <br />
               Email:{' '}
               <a
-                href="mailto:info@legion209.org"
+                href="mailto:info@post245.com"
                 className="text-[#002D62] underline hover:text-[#BF0D3E]"
               >
-                info@legion209.org
+                info@post245.com
+              </a>
+              <br />
+              <br />
+              We&apos;re known as &quot;The Legion in the Woods&quot; due to our scenic wooded
+              location in State College, Pennsylvania.
+            </p>
+          </FrequentlyAskedQuestions>
+
+          <FrequentlyAskedQuestions title="What are the restaurant hours?">
+            <p className="mb-[20px]">
+              The Legion in the Woods restaurant offers lunch to the public and various dining
+              options for members and social members. Hours may vary, so please call ahead for
+              current hours and daily specials.
+            </p>
+            <p>
+              <strong>Sunday Hours:</strong> 1:00 PM - 10:00 PM
+              <br />
+              <strong>Weekday Take-Out:</strong> Available with parking lot pick-up upon request,
+              11:00 AM - 8:00 PM
+              <br />
+              <br />
+              Order by phone:{' '}
+              <a href="tel:8142376880" className="text-[#002D62] underline hover:text-[#BF0D3E]">
+                (814) 237-6880
               </a>
             </p>
           </FrequentlyAskedQuestions>
 
+          <FrequentlyAskedQuestions title="How can I support Post 245?">
+            <p>There are many ways to support our post and its mission:</p>
+            <ul className="list-disc list-inside mt-2 space-y-2">
+              <li>Become a member and actively participate in post activities</li>
+              <li>Join as a social member to support the post and enjoy the facility</li>
+              <li>Make a donation to support post operations and programs</li>
+              <li>Sponsor youth programs or scholarships</li>
+              <li>Volunteer for community service events</li>
+              <li>Attend post meetings and special events</li>
+              <li>Dine at our restaurant and support our operation</li>
+            </ul>
+          </FrequentlyAskedQuestions>
+
           <FrequentlyAskedQuestions title="Does the American Legion have a national organization?">
             <p>
-              Yes, American Legion Post 209 is part of the national American Legion organization,
+              Yes, American Legion Post 245 is part of the national American Legion organization,
               which was founded in 1919 and is the nation&apos;s largest wartime veterans service
               organization. The American Legion has nearly 2 million members across more than 12,000
               posts worldwide.

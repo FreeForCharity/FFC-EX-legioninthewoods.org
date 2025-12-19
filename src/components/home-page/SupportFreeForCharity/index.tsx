@@ -52,7 +52,7 @@ const Index = () => {
               id="lato-font"
             >
               Contact us to learn about donation opportunities, sponsorships, and ways to support
-              American Legion Post 209.
+              American Legion Post 245.
             </p>
             <div className="text-center lg:text-left mt-[20px]">
               <a
@@ -95,7 +95,7 @@ const Index = () => {
               </ul>
               <div className="mt-6 p-4 bg-white rounded">
                 <p className="text-[16px] text-gray-700" id="lato-font">
-                  American Legion Post 209 is a 501(c)(19) veterans organization. Contact us for
+                  American Legion Post 245 is a 501(c)(19) veterans organization. Contact us for
                   information about tax-deductible giving.
                 </p>
               </div>

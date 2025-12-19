@@ -9,15 +9,15 @@ const index = () => {
           className="mt-[2px] mb-[42px] pb-[10px] text-[30px] md:text-[48px] font-[400] leading-[46px] text-center text-white"
           id="faustina-font"
         >
-          Join American Legion Post 209
+          Join American Legion Post 245
         </h1>
         <p
           className="mb-[13px] w-[85%] mx-auto font-[500] text-[20px] leading-[30px] text-center text-white"
           id="lato-font"
         >
           Membership is open to all honorably discharged veterans of the U.S. Armed Forces who
-          served on active duty during wartime periods. Join the largest American Legion post in
-          Colorado and continue your service to fellow veterans and our community.
+          served on active duty during wartime periods. Join us at The Legion in the Woods and
+          continue your service to fellow veterans and our community in Centre County.
         </p>
         <div className="flex flex-col md:flex-row gap-4 justify-center items-center mt-[30px]">
           <a
@@ -44,7 +44,7 @@ const index = () => {
 
         <div className="mt-[40px] text-white text-center">
           <p className="text-[18px] font-[500] mb-[20px]" id="lato-font">
-            Annual Dues: Contact us for current rates
+            Contact us for current membership dues and information
           </p>
           <p className="text-[16px] font-[400]" id="lato-font">
             All military branches welcome: Army, Navy, Marine Corps, Air Force, Space Force, Coast

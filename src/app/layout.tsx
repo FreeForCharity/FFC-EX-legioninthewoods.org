@@ -21,19 +21,20 @@ const basePath = process.env.NEXT_PUBLIC_BASE_PATH || ''
 export const metadata: Metadata = {
   metadataBase: new URL('https://legioninthewoods.org'),
   title: {
-    default: 'American Legion Post 209 | Neal Thomas Jr. Centennial Post',
-    template: '%s | American Legion Post 209',
+    default: 'Nittany American Legion Post 245 | Legion in the Woods',
+    template: '%s | American Legion Post 245',
   },
   description:
-    'American Legion Neal Thomas Jr. Centennial Post 209 in Colorado Springs - Serving veterans, their families, and our community. For God and Country.',
+    'Nittany American Legion Post 245 in State College, PA - The Legion in the Woods. Serving veterans, their families, and the Centre County community since 1919.',
   keywords: [
     'American Legion',
     'veterans',
-    'Post 209',
-    'Colorado Springs',
-    'Neal Thomas Jr',
-    'military',
-    'community service',
+    'Post 245',
+    'State College',
+    'Pennsylvania',
+    'Legion in the Woods',
+    'Nittany',
+    'Centre County',
   ],
   robots: {
     index: true,
@@ -52,25 +53,25 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     url: 'https://legioninthewoods.org/',
-    siteName: 'American Legion Post 209',
-    title: 'American Legion Post 209 | Neal Thomas Jr. Centennial Post',
+    siteName: 'American Legion Post 245',
+    title: 'Nittany American Legion Post 245 | Legion in the Woods',
     description:
-      'Serving veterans, their families, and our community in Colorado Springs. For God and Country.',
+      'Serving veterans, their families, and the Centre County community since 1919. The Legion in the Woods.',
     images: [
       {
         url: '/web-app-manifest-512x512.png',
         width: 512,
         height: 512,
-        alt: 'American Legion Post 209',
+        alt: 'American Legion Post 245',
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    site: '@ALPost209',
-    title: 'American Legion Post 209 | Neal Thomas Jr. Centennial Post',
+    site: '@ALPost245',
+    title: 'Nittany American Legion Post 245 | Legion in the Woods',
     description:
-      'Serving veterans, their families, and our community in Colorado Springs. For God and Country.',
+      'Serving veterans, their families, and the Centre County community since 1919. The Legion in the Woods.',
     images: ['/web-app-manifest-512x512.png'],
   },
   icons: {

@@ -71,7 +71,7 @@ const Events = () => {
         <div className="text-center mt-8">
           <p className="text-[18px] font-[400] text-gray-600" id="lato-font">
             <a
-              href="https://www.facebook.com/AmericanLegionCentennialPost209"
+              href="https://www.facebook.com/people/American-Legion-Post-245/100064092967036/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-[#002D62] hover:underline font-[600]"

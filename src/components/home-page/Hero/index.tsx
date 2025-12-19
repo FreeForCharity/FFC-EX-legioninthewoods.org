@@ -28,13 +28,13 @@ const CharityHeroBackground = () => {
             className="text-[50px] lg:text-[60px] font-[500] text-[#FFFFFF] leading-[120%] mb-[20px]"
             id="faustina-font"
           >
-            American Legion Post 209
+            Nittany American Legion Post 245
           </h1>
           <p
             className="text-[24px] font-[400] leading-[120%] text-[#FFFFFF] mb-[20px]"
             id="lato-font"
           >
-            Neal Thomas Jr. Centennial Post - Serving Veterans, Families & Community
+            The Legion in the Woods - Serving Veterans & Community Since 1919
           </p>
           <a
             href="#about"
