@@ -23,12 +23,11 @@ const Header: React.FC = () => {
   const menuItems: MenuItem[] = useMemo(
     () => [
       { label: 'Home', path: '/#hero' },
-      { label: 'Mission', path: '/#mission' },
+      { label: 'About', path: '/#mission' },
       { label: 'Programs', path: '/#programs' },
-      { label: 'Volunteer', path: '/#volunteer' },
-      { label: 'Donate', path: '/#donate' },
-      { label: 'FAQ', path: '/#faq' },
-      { label: 'Team', path: '/#team' },
+      { label: 'Events', path: '/#events' },
+      { label: 'Membership', path: '/#membership' },
+      { label: 'Contact', path: '/#contact' },
     ],
     []
   )
@@ -98,8 +97,8 @@ const Header: React.FC = () => {
             >
               <Link href="/" onClick={handleLinkClick} className="block">
                 <img
-                  src="https://freeforcharity.org/wp-content/uploads/2024/04/Screenshot_145.png"
-                  alt="Free For Charity"
+                  src="https://centennial.legion.org/sites/default/files/styles/section_banner/public/colorado/post209/Neal%20Thomas%20Jr%20Post%20209.jpg"
+                  alt="American Legion Post 209"
                   className={`transition-all duration-300 ${isScrolled ? 'h-7' : 'h-11'}`}
                 />
               </Link>
