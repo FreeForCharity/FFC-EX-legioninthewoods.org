@@ -6,6 +6,7 @@ import { FiMenu } from 'react-icons/fi'
 import { LiaSearchSolid } from 'react-icons/lia'
 import { RxCross2 } from 'react-icons/rx'
 import { motion, AnimatePresence } from 'framer-motion'
+import { assetPath } from '@/lib/assetPath'
 
 interface MenuItem {
   label: string
@@ -97,8 +98,8 @@ const Header: React.FC = () => {
             >
               <Link href="/" onClick={handleLinkClick} className="block">
                 <img
-                  src="https://centennial.legion.org/sites/default/files/styles/section_banner/public/colorado/post209/Neal%20Thomas%20Jr%20Post%20209.jpg"
-                  alt="American Legion Post 209"
+                  src={assetPath('/american-legion-emblem.png')}
+                  alt="American Legion Post 245"
                   className={`transition-all duration-300 ${isScrolled ? 'h-7' : 'h-11'}`}
                 />
               </Link>

@@ -21,7 +21,7 @@ const index = () => {
         </p>
         <div className="flex flex-col md:flex-row gap-4 justify-center items-center mt-[30px]">
           <a
-            href="#contact"
+            href="mailto:info@post245.com"
             className="w-[216px] h-[62px] rounded-[27px] 
              flex items-center justify-center px-[32px] py-[18px] gap-[10px] 
              text-[#002D62] bg-white text-[20px] font-[400] font-sans text-center hover:bg-[#FFD700] transition-colors"

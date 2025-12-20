@@ -1,25 +1,26 @@
-# American Legion Post 209 Rebranding Summary
+# American Legion Post 245 Rebranding Summary
 
 ## Overview
 
-This document summarizes the rebranding of the Free For Charity template to American Legion Neal Thomas Jr. Centennial Post 209 website.
+This document summarizes the rebranding of the Free For Charity template to Nittany American Legion Post 245 website.
 
 ## Organization Information
 
-### American Legion Post 209
+### Nittany American Legion Post 245
 
-- **Full Name**: American Legion Neal Thomas Jr. Centennial Post 209
-- **Location**: 5220 N Nevada Ave, Colorado Springs, CO 80918
-- **Phone**: (719) 591-0839
-- **Email**: info@legion209.org
-- **Website**: legioninthewoods.org
+- **Full Name**: Nittany American Legion Post 245
+- **Nickname**: "The Legion in the Woods"
+- **Location**: 1950 Pine Hall Road, State College, PA 16801
+- **Phone**: (814) 237-6880
+- **Email**: info@post245.com
+- **Website**: https://legioninthewoods.org
 
 ### History
 
-- **Founded**: 1975
-- **Chartered**: 1976 as Templeton Gap Post 209
-- **Renamed**: 2016 to honor Neal Thomas Jr., Korean and Vietnam War veteran
-- **Size**: Largest American Legion post in Colorado
+- **Chartered**: October 19, 1919
+- **First Commander**: Theodore D. Boal
+- **Anniversary**: Celebrated centennial in August 2019
+- **Nickname Origin**: Location nestled in wooded area inspired "Legion in the Woods"
 
 ### Mission
 
@@ -41,7 +42,7 @@ Serving veterans, active military, and their families through the Four Pillars o
 
 ### Logo and Images
 
-- **Header Logo**: American Legion emblem from centennial.legion.org
+- **Header Logo**: American Legion emblem
 - **Hero Section**: Retained circular image placeholder for customization
 
 ### Typography
@@ -53,12 +54,12 @@ Serving veterans, active military, and their families through the Four Pillars o
 
 ### Metadata (layout.tsx)
 
-- **Site Title**: "American Legion Post 209 | Neal Thomas Jr. Centennial Post"
-- **Description**: "American Legion Neal Thomas Jr. Centennial Post 209 in Colorado Springs - Serving veterans, their families, and our community. For God and Country."
-- **Keywords**: American Legion, veterans, Post 209, Colorado Springs, Neal Thomas Jr, military, community service
+- **Site Title**: "Nittany American Legion Post 245 | Legion in the Woods"
+- **Description**: "Nittany American Legion Post 245 in State College, PA - The Legion in the Woods. Serving veterans, their families, and the Centre County community since 1919."
+- **Keywords**: American Legion, veterans, Post 245, State College, Pennsylvania, Legion in the Woods, Nittany, Centre County
 - **Social Media**:
-  - Twitter: @ALPost209
-  - Facebook: AmericanLegionCentennialPost209
+  - Twitter: @ALPost245
+  - Facebook: American Legion Post 245
 
 ### Navigation (Header)
 
@@ -81,24 +82,24 @@ Serving veterans, active military, and their families through the Four Pillars o
 
 **New Structure**:
 
-- About Post 209 (history and mission)
+- About Post 245 (history and mission)
 - Quick Links (simplified to 6 items)
-- Contact (CO Springs address only)
+- Contact (PA address only)
 - Post Resources (2 policy pages)
 
 ### Homepage Sections
 
 #### 1. Hero Section
 
-- **Heading**: "American Legion Post 209"
-- **Tagline**: "Neal Thomas Jr. Centennial Post - Serving Veterans, Families & Community"
+- **Heading**: "Nittany American Legion Post 245"
+- **Tagline**: "The Legion in the Woods - Serving Veterans & Community Since 1919"
 - **CTAs**: "Learn More", "Join Us", "Events"
 - **Background**: Navy blue and red diagonal stripes with white accent
 
 #### 2. Mission Section
 
 - **Heading**: "For God and Country"
-- **Content**: Post mission, history (1975 founding, 2016 renaming), and dedication to Neal Thomas Jr.
+- **Content**: Post history (chartered 1919, Theodore D. Boal as first commander, 100+ years serving State College and Centre County)
 - **Removed**: Video player
 
 #### 3. Programs Section
@@ -112,7 +113,7 @@ Serving veterans, active military, and their families through the Four Pillars o
 
 2. **Children & Youth Programs**
    - Boys State, American Legion Baseball, Junior Shooting Sports
-   - Boy Scouts support, scholarships
+   - Boy Scouts support (Troop 245), scholarships
 
 3. **Americanism & Community Service**
    - Flag programs, ceremonies
@@ -133,7 +134,7 @@ Serving veterans, active military, and their families through the Four Pillars o
 - Eligibility criteria for veterans
 - All military branches welcome
 - CTAs: "Join Today", "Eligibility"
-- Annual dues information
+- Contact for membership dues information
   **Replaced**: "Volunteer with Us" section
 
 #### 6. Support Section
@@ -147,24 +148,24 @@ Serving veterans, active military, and their families through the Four Pillars o
 
 **9 New FAQs**:
 
-1. Who can join American Legion Post 209?
-2. What is the mission of Post 209?
-3. What programs does Post 209 offer?
-4. When does Post 209 meet?
-5. How can I request Honor Guard services?
-6. What is the history of Post 209?
-7. How can I support Post 209?
-8. Where is Post 209 located?
+1. Who can join American Legion Post 245?
+2. What is the history of Post 245?
+3. What is the mission of American Legion Post 245?
+4. What programs and activities does Post 245 offer?
+5. When does Post 245 meet?
+6. Where is Post 245 located?
+7. What are the restaurant hours?
+8. How can I support Post 245?
 9. Does the American Legion have a national organization?
 
 **Removed**: 15 Free For Charity specific FAQs
 
 ### Sections Requiring Further Updates
 
-- **Results 2023**: Needs Post 209 accomplishments
-- **Endowment Features**: Needs Post 209 specific content or removal
-- **Testimonials**: Needs Post 209 testimonials or removal
-- **Team**: Needs Post 209 leadership or removal
+- **Results 2023**: Needs Post 245 accomplishments or removal
+- **Endowment Features**: Needs Post 245 specific content or removal
+- **Testimonials**: Needs Post 245 testimonials or removal
+- **Team**: Needs Post 245 leadership or removal
 
 ## Technical Details
 
@@ -207,8 +208,8 @@ Serving veterans, active military, and their families through the Four Pillars o
 
 ### High Priority
 
-1. Update Privacy Policy for Post 209
-2. Update Terms of Service for Post 209
+1. Update Privacy Policy for Post 245
+2. Update Terms of Service for Post 245
 3. Remove Free For Charity specific policy pages
 4. Update or remove Results 2023 section
 5. Update or remove Endowment Features section
@@ -217,26 +218,26 @@ Serving veterans, active military, and their families through the Four Pillars o
 
 ### Medium Priority
 
-1. Update README.md with Post 209 information
-2. Add American Legion Post 209 specific images
+1. Update README.md with Post 245 information
+2. Add American Legion Post 245 specific images
 3. Update favicon and app icons
-4. Create Post 209 specific graphics/SVGs
+4. Create Post 245 specific graphics/SVGs
 5. Update CNAME file for custom domain
 
 ### Low Priority
 
 1. Review all remaining components for Free For Charity references
 2. Update data files (team.ts, testimonials.ts, faqs.ts)
-3. Add Post 209 specific content to empty sections
-4. Set up Google Analytics with Post 209 tracking
+3. Add Post 245 specific content to empty sections
+4. Set up Google Analytics with Post 245 tracking
 5. Update social media integration
 
 ## References
 
 - American Legion National: https://www.legion.org
-- Post 209 Official Site: https://legion209.org
-- Post 209 Facebook: https://www.facebook.com/AmericanLegionCentennialPost209
-- Colorado Department: https://centennial.legion.org/colorado/post209
+- Post 245 Website: https://legioninthewoods.org
+- Post 245 Facebook: https://www.facebook.com/people/American-Legion-Post-245/100064092967036/
+- Pennsylvania Department: https://centennial.legion.org/pennsylvania/post245
 
 ## Comparison
 
@@ -247,19 +248,30 @@ Serving veterans, active military, and their families through the Four Pillars o
 - Colors: Cyan, orange, white
 - Target audience: Nonprofits needing IT services
 
-### After (American Legion Post 209)
+### After (Nittany American Legion Post 245)
 
 - 501(c)(19) veterans organization
 - Focus: Serving veterans, youth programs, Americanism
 - Colors: Navy blue, red, gold
 - Target audience: Veterans, military families, community
 
+## Special Features
+
+- **Restaurant**: "Legion in the Woods" restaurant and bar
+- **Take-out Service**: Available with parking lot pick-up
+- **Hours**: Sunday 1:00 PM - 10:00 PM, Weekday take-out 11:00 AM - 8:00 PM
+- **Affiliated Organizations**:
+  - Auxiliary Unit 245
+  - S.A.L. (Sons of the American Legion) Squadron 245
+  - Legion Riders Chapter 245
+  - Scout Troop 245
+
 ## Documentation
 
-This rebranding followed the task outlined in the GitHub issue to rebrand the template for American Legion Post 209, using archived content from legioninthewoods.org as reference and official American Legion sources for accurate information.
+This rebranding followed the task outlined in the GitHub issue to rebrand the template for American Legion Post 245, using archived content from legioninthewoods.org via Wayback Machine and official American Legion sources for accurate information.
 
 ---
 
-**Date**: December 19, 2024
-**Completed by**: GitHub Copilot
+**Date**: December 19-20, 2024  
+**Completed by**: GitHub Copilot  
 **Status**: Major rebranding complete - minor updates needed for full launch

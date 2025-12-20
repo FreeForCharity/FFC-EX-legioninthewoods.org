@@ -56,11 +56,11 @@ const Index = () => {
             </p>
             <div className="text-center lg:text-left mt-[20px]">
               <a
-                href="#contact"
+                href="mailto:info@post245.com"
                 className="inline-block px-8 py-3 bg-[#002D62] text-white rounded-[27px] text-[20px] font-[500] hover:bg-[#BF0D3E] transition-colors"
                 id="lato-font"
               >
-                Contact Us
+                Email Us
               </a>
             </div>
           </div>

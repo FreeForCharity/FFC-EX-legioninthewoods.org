@@ -85,12 +85,12 @@ const index = () => {
               </a>{' '}
               or visit our website at{' '}
               <a
-                href="http://www.post245.com"
+                href="http://legioninthewoods.org"
                 className="text-[#002D62] underline hover:text-[#BF0D3E]"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                www.post245.com
+                legioninthewoods.org
               </a>
               .
             </p>

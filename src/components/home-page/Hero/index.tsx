@@ -37,7 +37,7 @@ const CharityHeroBackground = () => {
             The Legion in the Woods - Serving Veterans & Community Since 1919
           </p>
           <a
-            href="#about"
+            href="#mission"
             className="top-[378px] w-[300px] lg:w-[351px] h-[54px] opacity-100 rounded-[27px] px-[32px] py-[18px] flex items-center justify-center gap-[10px] bg-[#FFFFFF] text-[#002D62] text-[20px] font-[400] leading-[100%] mb-[10px] whitespace-nowrap"
             id="lato-font"
           >

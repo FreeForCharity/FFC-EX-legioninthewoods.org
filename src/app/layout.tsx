@@ -94,7 +94,6 @@ export default function RootLayout({
         {/* Preconnect to external domains for faster resource loading */}
         <link rel="preconnect" href="https://www.googletagmanager.com" />
         <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
-        <link rel="dns-prefetch" href="https://www.idealist.org" />
 
         {/* Preload critical LCP image */}
         <link
