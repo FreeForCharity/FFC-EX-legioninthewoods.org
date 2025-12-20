@@ -24,7 +24,7 @@ const index = () => {
             href="mailto:info@post245.com"
             className="w-[216px] h-[62px] rounded-[27px] 
              flex items-center justify-center px-[32px] py-[18px] gap-[10px] 
-             text-[#002D62] bg-white text-[20px] font-[400] font-sans text-center hover:bg-[#FFD700] transition-colors"
+             text-[#002D62] bg-white text-[20px] font-[400] font-sans text-center hover:bg-[#002D62] hover:text-white transition-colors"
             id="lato-font"
           >
             Join Today

@@ -80,7 +80,7 @@ const Footer: React.FC = () => {
                 <li key={link.name}>
                   <Link
                     href={link.href}
-                    className="hover:text-[#F58C23] hover:tracking-widest transition-all text-[16px] font-[500]"
+                    className="hover:text-[#BF0D3E] hover:tracking-widest transition-all text-[16px] font-[500]"
                   >
                     {link.name}
                   </Link>
