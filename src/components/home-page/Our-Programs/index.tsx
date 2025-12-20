@@ -17,8 +17,7 @@ const OurPrograms = () => {
           <div className="mb-[40px]  flex items-center gap-[20px]">
             <div className="w-[100px] flex items-center justify-center p-2 h-[100px] bg-[#002D62] rounded-full">
               <div className="relative w-[56px] h-[56px]">
-                {/* TODO: Replace FFC-Domains.svg with veterans-support.svg or appropriate veterans-themed icon */}
-                <Image src="/Svgs/FFC-Domains.svg" alt="Veterans Support" fill></Image>
+                <Image src="/Svgs/veterans-support.svg" alt="Veterans Support" fill></Image>
               </div>
             </div>
             <h1 className="text-[36px] font-[400] " id="lato-font">
@@ -63,8 +62,7 @@ const OurPrograms = () => {
           <div className="lg:pl-[50px] mb-[40px]  flex items-center gap-[20px]">
             <div className="w-[100px] flex items-center justify-center p-2 h-[100px] bg-[#002D62] rounded-full">
               <div className="relative w-[56px] h-[56px]">
-                {/* TODO: Replace FFC-Hosting.svg with youth-programs.svg or appropriate youth-themed icon */}
-                <Image src="/Svgs/FFC-Hosting.svg" alt="Youth Programs" fill></Image>
+                <Image src="/Svgs/youth-programs.svg" alt="Youth Programs" fill></Image>
               </div>
             </div>
             <h1 className="text-[36px] font-[400]  " id="lato-font">
