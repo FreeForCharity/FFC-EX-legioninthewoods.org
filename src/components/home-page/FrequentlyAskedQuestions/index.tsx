@@ -80,7 +80,7 @@ const index = () => {
             <p>
               Post meetings are held regularly. For the current meeting schedule and upcoming
               events, please contact the post at{' '}
-              <a href="tel:8142376880" className="text-[#002D62] underline hover:text-[#BF0D3E]">
+              <a href="tel:+18142376880" className="text-[#002D62] underline hover:text-[#BF0D3E]">
                 (814) 237-6880
               </a>{' '}
               or visit our website at{' '}
@@ -104,7 +104,7 @@ const index = () => {
               <br />
               <br />
               Phone:{' '}
-              <a href="tel:8142376880" className="text-[#002D62] underline hover:text-[#BF0D3E]">
+              <a href="tel:+18142376880" className="text-[#002D62] underline hover:text-[#BF0D3E]">
                 (814) 237-6880
               </a>
               <br />
@@ -136,7 +136,7 @@ const index = () => {
               <br />
               <br />
               Order by phone:{' '}
-              <a href="tel:8142376880" className="text-[#002D62] underline hover:text-[#BF0D3E]">
+              <a href="tel:+18142376880" className="text-[#002D62] underline hover:text-[#BF0D3E]">
                 (814) 237-6880
               </a>
             </p>
