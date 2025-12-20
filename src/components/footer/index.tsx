@@ -2,9 +2,9 @@
 
 import React from 'react'
 import Link from 'next/link'
-import { Mail, Phone, MapPin, ArrowRight } from 'lucide-react'
+import { Mail, Phone, MapPin } from 'lucide-react'
 
-import { FaFacebookF, FaLinkedinIn, FaGithub } from 'react-icons/fa'
+import { FaFacebookF, FaInstagram, FaYoutube } from 'react-icons/fa'
 import { FaXTwitter } from 'react-icons/fa6'
 
 const Footer: React.FC = () => {
@@ -14,8 +14,23 @@ const Footer: React.FC = () => {
       icon: FaFacebookF,
       href: 'https://www.facebook.com/people/American-Legion-Post-245/100064092967036/',
       label: 'Facebook',
+      active: true,
     },
-    { icon: FaXTwitter, href: 'https://x.com/ALPost245', label: 'X (Twitter)' },
+    { icon: FaXTwitter, href: 'https://x.com/ALPost245', label: 'X (Twitter)', active: true },
+    {
+      icon: FaInstagram,
+      href: '#',
+      label: 'Instagram (Add URL)',
+      active: false,
+      note: 'Add Instagram profile URL',
+    },
+    {
+      icon: FaYoutube,
+      href: '#',
+      label: 'YouTube (Add URL)',
+      active: false,
+      note: 'Add YouTube channel URL',
+    },
   ]
   return (
     <footer className="bg-black text-white">
@@ -141,19 +156,29 @@ const Footer: React.FC = () => {
               </div>
             </a>
 
-            <div className="flex gap-3 pt-4">
-              {socialLinks.map(({ icon: Icon, href, label }, index) => (
-                <a
-                  key={index}
-                  href={href}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  aria-label={label}
-                  className="bg-[#BF0D3E] p-2 rounded-full hover:bg-[#FFD700] hover:text-[#002D62] transition-colors"
-                >
-                  <Icon className="w-6 h-6 text-white" />
-                </a>
-              ))}
+            <div className="space-y-2">
+              <div className="flex gap-3 pt-4">
+                {socialLinks.map(({ icon: Icon, href, label, active }, index) => (
+                  <a
+                    key={index}
+                    href={href}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label={label}
+                    className={`p-2 rounded-full transition-colors ${
+                      active
+                        ? 'bg-[#BF0D3E] hover:bg-[#FFD700] hover:text-[#002D62]'
+                        : 'bg-gray-600 opacity-50 cursor-not-allowed'
+                    }`}
+                    onClick={!active ? (e) => e.preventDefault() : undefined}
+                  >
+                    <Icon className="w-6 h-6 text-white" />
+                  </a>
+                ))}
+              </div>
+              <p className="text-[12px] text-gray-400 italic" id="lato-font">
+                Note: Grayed icons are placeholders. Add Instagram/YouTube URLs to activate.
+              </p>
             </div>
           </div>
         </div>

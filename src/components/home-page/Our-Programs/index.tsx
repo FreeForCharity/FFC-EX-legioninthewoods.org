@@ -2,7 +2,7 @@ import React from 'react'
 import Image from 'next/image'
 import OrangeFaqItem from '@/components/ui/OrangeFaqItem'
 
-const index = () => {
+const OurPrograms = () => {
   return (
     <div id="programs" className="py-[52px]">
       <div className="w-[90%] lg:px-[20px] mx-auto">
@@ -99,4 +99,4 @@ const index = () => {
   )
 }
 
-export default index
+export default OurPrograms

@@ -1,31 +1,6 @@
-import React, { CSSProperties, IframeHTMLAttributes } from 'react'
-import Image from 'next/image'
+import React from 'react'
 
-interface ExtendedIframeProps extends IframeHTMLAttributes<HTMLIFrameElement> {
-  allowpaymentrequest?: string
-  allowtransparency?: string
-}
-
-const Index = () => {
-  const donationFormStyle: CSSProperties = {
-    position: 'absolute',
-    border: '0',
-    top: 0,
-    left: 0,
-    bottom: 0,
-    right: 0,
-    width: '100%',
-    height: '100%',
-  }
-
-  const donationFormProps: ExtendedIframeProps = {
-    title: 'Donation form powered by Zeffy',
-    style: donationFormStyle,
-    src: 'https://www.zeffy.com/embed/donation-form/free-for-charity-endowment-fund',
-    allowpaymentrequest: '',
-    allowtransparency: 'true',
-  }
-
+const SupportPost = () => {
   return (
     <div id="contact">
       <div className="w-[90%] mx-auto py-[27px] mb-[60px] px-[20px] max-w-[1280px]">
@@ -71,27 +46,15 @@ const Index = () => {
               <h3 className="text-[28px] font-[600] mb-4 text-[#002D62]" id="lato-font">
                 Ways to Support
               </h3>
-              <ul className="space-y-4 text-[18px]" id="lato-font">
-                <li className="flex items-start gap-3">
-                  <span className="text-[#BF0D3E] font-bold">•</span>
-                  <span>General donations to support post operations</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <span className="text-[#BF0D3E] font-bold">•</span>
-                  <span>Youth program sponsorships</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <span className="text-[#BF0D3E] font-bold">•</span>
-                  <span>Scholarship fund contributions</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <span className="text-[#BF0D3E] font-bold">•</span>
-                  <span>Honor Guard equipment and uniforms</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <span className="text-[#BF0D3E] font-bold">•</span>
-                  <span>Veteran assistance programs</span>
-                </li>
+              <ul
+                className="space-y-4 text-[18px] list-disc pl-5 marker:text-[#BF0D3E]"
+                id="lato-font"
+              >
+                <li>General donations to support post operations</li>
+                <li>Youth program sponsorships</li>
+                <li>Scholarship fund contributions</li>
+                <li>Honor Guard equipment and uniforms</li>
+                <li>Veteran assistance programs</li>
               </ul>
               <div className="mt-6 p-4 bg-white rounded">
                 <p className="text-[16px] text-gray-700" id="lato-font">
@@ -107,4 +70,4 @@ const Index = () => {
   )
 }
 
-export default Index
+export default SupportPost
