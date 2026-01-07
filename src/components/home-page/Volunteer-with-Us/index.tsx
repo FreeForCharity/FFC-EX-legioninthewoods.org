@@ -30,7 +30,7 @@ const index = () => {
             Join Today
           </a>
           <a
-            href="https://www.legion.org/membership/eligibility"
+            href="https://www.legion.org/join"
             target="_blank"
             rel="noopener noreferrer"
             className="w-[216px] h-[62px] rounded-[27px] 

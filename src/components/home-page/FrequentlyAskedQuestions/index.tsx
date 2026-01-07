@@ -22,12 +22,12 @@ const index = () => {
             <p>
               For specific eligibility dates and requirements, please visit the{' '}
               <a
-                href="https://www.legion.org/membership/eligibility"
+                href="https://www.legion.org/join"
                 className="text-[#002D62] underline hover:text-[#BF0D3E]"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                American Legion eligibility page
+                American Legion membership page
               </a>{' '}
               or contact our post directly at (814) 237-6880.
             </p>

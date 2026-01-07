@@ -19,17 +19,17 @@ const Footer: React.FC = () => {
     { icon: FaXTwitter, href: 'https://x.com/ALPost245', label: 'X (Twitter)', active: true },
     {
       icon: FaInstagram,
-      href: '#',
-      label: 'Instagram (Add URL)',
+      href: '/#contact',
+      label: 'Instagram (Coming Soon)',
       active: false,
-      note: 'Add Instagram profile URL',
+      note: 'Instagram profile coming soon',
     },
     {
       icon: FaYoutube,
-      href: '#',
-      label: 'YouTube (Add URL)',
+      href: '/#contact',
+      label: 'YouTube (Coming Soon)',
       active: false,
-      note: 'Add YouTube channel URL',
+      note: 'YouTube channel coming soon',
     },
   ]
   return (
@@ -177,7 +177,7 @@ const Footer: React.FC = () => {
                 ))}
               </div>
               <p className="text-[12px] text-gray-400 italic" id="lato-font">
-                Note: Grayed icons are placeholders. Add Instagram/YouTube URLs to activate.
+                Note: Instagram and YouTube channels coming soon. Contact us for more information.
               </p>
             </div>
           </div>

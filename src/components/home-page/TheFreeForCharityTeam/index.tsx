@@ -16,42 +16,49 @@ const PostLeadership = () => {
           <TeamMemberCard
             imageUrl="/Images/member1.webp"
             name="Post Commander"
-            title="Placeholder - Add Commander Name & Photo"
-            linkedinUrl="#"
+            title="Contact post for current commander information"
+            linkedinUrl="/#contact"
           />
           <TeamMemberCard
             imageUrl="/Images/member2.webp"
             name="First Vice Commander"
-            title="Placeholder - Add 1st Vice Commander Name & Photo"
-            linkedinUrl="#"
+            title="Contact post for current 1st vice commander information"
+            linkedinUrl="/#contact"
           />
           <TeamMemberCard
             imageUrl="/Images/member3.webp"
             name="Second Vice Commander"
-            title="Placeholder - Add 2nd Vice Commander Name & Photo"
-            linkedinUrl="#"
+            title="Contact post for current 2nd vice commander information"
+            linkedinUrl="/#contact"
           />
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 items-center justify-center mt-[40px] gap-[30px]">
           <TeamMemberCard
             imageUrl="/Images/member4.webp"
             name="Adjutant"
-            title="Placeholder - Add Adjutant Name & Photo"
-            linkedinUrl="#"
+            title="Contact post for current adjutant information"
+            linkedinUrl="/#contact"
           />
           <TeamMemberCard
             imageUrl="/Images/member5.webp"
             name="Finance Officer"
-            title="Placeholder - Add Finance Officer Name & Photo"
-            linkedinUrl="#"
+            title="Contact post for current finance officer information"
+            linkedinUrl="/#contact"
           />
         </div>
         <div className="mt-8 text-center">
           <p className="text-[18px] text-gray-600 max-w-3xl mx-auto" id="lato-font">
-            <strong>Note to Post Leadership:</strong> Please replace placeholder images and names
-            with actual Post 245 officer information. Include photos, names, titles, and optional
-            LinkedIn profiles or email contacts. Consider adding Service Officer, Chaplain,
-            Sergeant-at-Arms, and other key positions.
+            <strong>Note to Post Leadership:</strong> These are generic officer positions. Please
+            contact post leadership at{' '}
+            <a href="mailto:post245@legioninthewoods.org" className="text-blue-600 underline">
+              post245@legioninthewoods.org
+            </a>{' '}
+            or call{' '}
+            <a href="tel:+18142380245" className="text-blue-600 underline">
+              (814) 238-0245
+            </a>{' '}
+            for current officer names and contact information. Photos and LinkedIn profiles can be
+            added by updating this section.
           </p>
         </div>
       </div>
