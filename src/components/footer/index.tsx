@@ -162,8 +162,11 @@ const Footer: React.FC = () => {
                   <a
                     key={index}
                     href={href}
-                    target="_blank"
-                    rel="noopener noreferrer"
+                    {...(active &&
+                      href.startsWith('http') && {
+                        target: '_blank',
+                        rel: 'noopener noreferrer',
+                      })}
                     aria-label={label}
                     className={`p-2 rounded-full transition-colors ${
                       active

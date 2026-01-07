@@ -42,7 +42,14 @@ export default function TeamMemberCard({
         </div>
 
         {/* LinkedIn Button */}
-        <a href={linkedinUrl} target="_blank" rel="noopener noreferrer" className="mt-6">
+        <a
+          href={linkedinUrl}
+          {...(linkedinUrl.startsWith('http') && {
+            target: '_blank',
+            rel: 'noopener noreferrer',
+          })}
+          className="mt-6"
+        >
           <Image src="/Svgs/linkedin-icon.svg" width={63} height={63} alt="linkedin icon"></Image>
         </a>
       </div>
