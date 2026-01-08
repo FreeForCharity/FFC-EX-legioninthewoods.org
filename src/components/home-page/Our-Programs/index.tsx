@@ -80,7 +80,7 @@ const Menu = () => {
             Want to see our full menu with prices?
           </p>
           <a
-            href="https://web.archive.org/web/20250211155218/http://nebula.wsimg.com/d04da9bc8cd9628916167f8705c645b6?AccessKeyId=F9A0F49B079B68799583&disposition=0&alloworigin=1"
+            href="/documents/Legion-Woods-Menu.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 bg-[#D4A574] hover:bg-[#C49464] text-[#2C1810] px-8 py-4 rounded-full text-[18px] font-[600] transition-colors"
