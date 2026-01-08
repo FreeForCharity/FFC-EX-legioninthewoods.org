@@ -75,8 +75,8 @@ const Menu = () => {
         </div>
 
         {/* Menu PDF Download */}
-        <div className="text-center bg-[#2C1810] rounded-lg p-8">
-          <p className="text-[20px] text-white mb-4" id="lato-font">
+        <div className="text-center bg-[#FDF8F3] rounded-lg p-8 border border-[#D4A574]/30">
+          <p className="text-[20px] text-[#2C1810] mb-4" id="lato-font">
             Want to see our full menu with prices?
           </p>
           <a

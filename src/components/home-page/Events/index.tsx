@@ -188,28 +188,28 @@ const Events = () => {
   }
 
   return (
-    <div id="events" className="py-[80px] bg-[#2C1810]">
+    <div id="events" className="py-[80px] bg-[#FDF8F3]">
       <div className="w-[90%] mx-auto max-w-[1280px]">
         {/* Header */}
         <div className="text-center mb-[60px]">
           <h2
-            className="font-[400] text-[40px] lg:text-[56px] leading-[100%] text-white mb-[20px]"
+            className="font-[400] text-[40px] lg:text-[56px] leading-[100%] text-[#2C1810] mb-[20px]"
             id="faustina-font"
           >
             2026 Events Calendar
           </h2>
-          <p className="text-[20px] text-[#D4A574]" id="lato-font">
+          <p className="text-[20px] text-[#5D4037]" id="lato-font">
             Join the community at Legion in the Woods
           </p>
         </div>
 
         {/* Legend / Event Types */}
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-[60px] bg-[#3D2317] p-6 rounded-2xl border border-[#D4A574]/20">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-[60px] bg-white p-6 rounded-2xl border border-[#D4A574]/30 shadow-sm">
           {eventTypes.map((type, idx) => (
             <div key={idx} className="flex flex-col items-center text-center p-2">
               <span className="text-3xl mb-2">{type.icon}</span>
               <span className="text-[#D4A574] font-bold text-lg mb-1">{type.label}</span>
-              <span className="text-white/60 text-sm">Hosted by {type.host}</span>
+              <span className="text-[#5D4037] text-sm">Hosted by {type.host}</span>
             </div>
           ))}
         </div>
@@ -217,17 +217,17 @@ const Events = () => {
         {/* Calendar Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6">
           {calendarData.map((month, idx) => {
-            if (month.events.length === 0) return null // Hide empty months or keep for layout? User said "see all events...". Hiding empty is better.
+            if (month.events.length === 0) return null
 
             return (
               <div
                 key={idx}
-                className="bg-[#FDF8F3] rounded-xl overflow-hidden shadow-lg border-2 border-[#D4A574]/20"
+                className="bg-white rounded-xl overflow-hidden shadow-lg border border-[#D4A574]/20"
               >
                 {/* Month Header */}
-                <div className="bg-[#3D2317] py-3 px-5 border-b-4 border-[#D4A574]">
+                <div className="bg-[#5D4037] py-3 px-5 border-b-4 border-[#D4A574]">
                   <h3
-                    className="text-[#D4A574] text-xl font-bold uppercase tracking-wider text-center"
+                    className="text-white text-xl font-bold uppercase tracking-wider text-center"
                     id="lato-font"
                   >
                     {month.name}
@@ -239,11 +239,11 @@ const Events = () => {
                   {month.events.map((event, eIdx) => (
                     <div
                       key={eIdx}
-                      className="flex items-start gap-4 p-3 bg-white/50 rounded-lg hover:bg-white transition-colors"
+                      className="flex items-start gap-4 p-3 bg-[#FDF8F3] rounded-lg hover:bg-[#FFF3E0] transition-colors border border-transparent hover:border-[#D4A574]/30"
                     >
                       {/* Date Box */}
-                      <div className="flex-shrink-0 flex flex-col items-center justify-center bg-[#2C1810] text-[#D4A574] w-[60px] h-[60px] rounded-lg border border-[#D4A574]/30">
-                        <span className="text-[10px] uppercase font-bold tracking-widest leading-none mb-1">
+                      <div className="flex-shrink-0 flex flex-col items-center justify-center bg-[#D4A574] text-[#2C1810] w-[60px] h-[60px] rounded-lg shadow-sm">
+                        <span className="text-[10px] uppercase font-bold tracking-widest leading-none mb-1 text-white/80">
                           {event.day}
                         </span>
                         <span className="text-[18px] font-bold leading-none">
@@ -257,7 +257,7 @@ const Events = () => {
                           <span className="text-lg" aria-hidden="true">
                             {getTypeIcon(event.type)}
                           </span>
-                          <span className="text-[12px] uppercase font-bold text-[#5D4037] bg-[#D4A574]/10 px-2 py-0.5 rounded-full">
+                          <span className="text-[12px] uppercase font-bold text-[#5D4037] bg-white px-2 py-0.5 rounded-full border border-[#D4A574]/20">
                             {eventTypes.find((t) => t.type === event.type)?.label}
                           </span>
                         </div>

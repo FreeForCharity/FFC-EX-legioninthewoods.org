@@ -45,33 +45,33 @@ const Team = () => {
 
         {/* Staff Appreciation */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-12">
-          <div className="text-center p-6 bg-[#2C1810] text-white rounded-lg">
+          <div className="text-center p-6 bg-[#FDF8F3] text-[#2C1810] rounded-lg border border-[#D4A574]/30">
             <div className="text-[40px] mb-2">🍳</div>
             <h3 className="text-[24px] font-[600] mb-2" id="lato-font">
               The Great Cooks
             </h3>
-            <p className="text-white/80" id="lato-font">
+            <p className="text-[#5D4037]" id="lato-font">
               Thank you to our dedicated kitchen staff and volunteer cooks who make every meal
               special.
             </p>
           </div>
 
-          <div className="text-center p-6 bg-[#2C1810] text-white rounded-lg">
+          <div className="text-center p-6 bg-[#FDF8F3] text-[#2C1810] rounded-lg border border-[#D4A574]/30">
             <div className="text-[40px] mb-2">🍺</div>
             <h3 className="text-[24px] font-[600] mb-2" id="lato-font">
               Bar Staff
             </h3>
-            <p className="text-white/80" id="lato-font">
+            <p className="text-[#5D4037]" id="lato-font">
               Cheers to the team that keeps the drinks flowing and the atmosphere welcoming.
             </p>
           </div>
 
-          <div className="text-center p-6 bg-[#2C1810] text-white rounded-lg">
+          <div className="text-center p-6 bg-[#FDF8F3] text-[#2C1810] rounded-lg border border-[#D4A574]/30">
             <div className="text-[40px] mb-2">🤝</div>
             <h3 className="text-[24px] font-[600] mb-2" id="lato-font">
               Support Team
             </h3>
-            <p className="text-white/80" id="lato-font">
+            <p className="text-[#5D4037]" id="lato-font">
               Grateful for the behind-the-scenes support that keeps our social club running
               smoothly.
             </p>
