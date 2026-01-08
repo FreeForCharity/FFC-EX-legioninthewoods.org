@@ -106,7 +106,7 @@ const Footer: React.FC = () => {
         </div>
 
         {/* Column 3: Contact Us */}
-        <div className="space-y-6 px-4 sm:px-0">
+        <div className="space-y-6 px-4 sm:px-0" id="contact-footer">
           <h3 className="text-[28px] text-white">Contact Us</h3>
 
           <div className="space-y-4 text-sm">
@@ -115,11 +115,11 @@ const Footer: React.FC = () => {
               <div>
                 <p className="font-[500] text-[22px]">E-mail</p>
                 <a
-                  href="mailto:info@post245.com"
+                  href="mailto:info@legioninthewoods.org"
                   className="font-[500] text-[15px] hover:text-[#FFD700] transition-colors break-all"
                   id="aria-font"
                 >
-                  info@post245.com
+                  info@legioninthewoods.org
                 </a>
               </div>
             </div>
