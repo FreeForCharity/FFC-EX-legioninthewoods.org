@@ -12,7 +12,7 @@ import { test, expect } from '@playwright/test'
  */
 
 test.describe('Logo and Brand Visibility', () => {
-  test('should display American Legion logo in header', async ({ page }) => {
+  test('should display Legion in the Woods logo in header', async ({ page }) => {
     // Navigate to the homepage
     await page.goto('/')
 
@@ -22,21 +22,21 @@ test.describe('Logo and Brand Visibility', () => {
     // Verify the logo exists and is visible
     await expect(headerLogo).toBeVisible()
 
-    // Verify the logo has American Legion alt text
-    await expect(headerLogo).toHaveAttribute('alt', 'American Legion Post 245')
+    // Verify the logo has Legion in the Woods alt text
+    await expect(headerLogo).toHaveAttribute('alt', 'Legion in the Woods')
   })
 
-  test('should display American Legion Post 245 branding in hero section', async ({ page }) => {
+  test('should display Legion in the Woods branding in hero section', async ({ page }) => {
     // Navigate to the homepage
     await page.goto('/')
 
-    // Find the hero heading with Post 245 branding
-    const heroHeading = page.locator('h1:has-text("American Legion Post 245")').first()
+    // Find the hero heading with Legion in the Woods branding
+    const heroHeading = page.locator('h1:has-text("Legion in the Woods")').first()
 
     // Verify the heading exists
     await expect(heroHeading).toBeVisible()
 
     // Verify it contains the correct text
-    await expect(heroHeading).toContainText('American Legion Post 245')
+    await expect(heroHeading).toContainText('Legion in the Woods')
   })
 })
