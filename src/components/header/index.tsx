@@ -93,7 +93,11 @@ const Header: React.FC = () => {
             <div
               className={`transition-all duration-300 ${isScrolled ? 'w-[110px]' : 'w-[150px]'}`}
             >
-              <Link href="/" onClick={handleLinkClick} className="block">
+              <Link
+                href="/"
+                onClick={handleLinkClick}
+                className="block bg-[#FDF8F3] rounded-full px-2 py-1 shadow-md"
+              >
                 <img
                   src="/Images/legion-woods-logo.png"
                   alt="Legion in the Woods"

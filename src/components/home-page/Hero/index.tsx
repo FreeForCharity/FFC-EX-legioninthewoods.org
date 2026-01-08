@@ -4,7 +4,7 @@ const Hero = () => {
   return (
     <div id="hero" className="relative w-full pb-[100px] overflow-hidden">
       {/* 1. Base warm brown layer */}
-      <div className="absolute inset-0 bg-gradient-to-br from-[#2C1810] via-[#3D2317] to-[#1a0f0a]" />
+      <div className="absolute inset-0 bg-gradient-to-br from-[#5D4037] via-[#4E342E] to-[#3E2723]" />
 
       {/* 2. Subtle wood texture overlay effect */}
       <div
