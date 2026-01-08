@@ -82,7 +82,7 @@ const Header: React.FC = () => {
   return (
     <header
       id="header"
-      className={`w-full bg-[#2C1810] shadow-lg fixed top-0 left-0 right-0 z-50 flex items-center transition-all duration-300 ${
+      className={`w-full bg-[#5D4037] shadow-lg fixed top-0 left-0 right-0 z-50 flex items-center transition-all duration-300 ${
         isScrolled ? 'h-[55px]' : 'h-[80px]'
       }`}
     >
@@ -169,7 +169,7 @@ const Header: React.FC = () => {
             }`}
           >
             <div
-              className={`max-w-[700px] mx-auto px-6 py-4 bg-[#2C1810] border-t-[3px] border-[#D4A574] shadow-[0_2px_5px_rgba(0,0,0,0.3)] max-h-[80vh] overflow-auto`}
+              className={`max-w-[700px] mx-auto px-6 py-4 bg-[#5D4037] border-t-[3px] border-[#D4A574] shadow-[0_2px_5px_rgba(0,0,0,0.3)] max-h-[80vh] overflow-auto`}
             >
               <ul className="space-y-2">
                 {menuItems.map((item, index) => (
