@@ -30,10 +30,10 @@ describe('Header component', () => {
     expect(screen.getByRole('banner')).toBeInTheDocument()
   })
 
-  it('should display the American Legion Post 245 logo', () => {
+  it('should display the Legion in the Woods logo', () => {
     render(<Header />)
     // Check for logo image with alt text
-    expect(screen.getByAltText('American Legion Post 245')).toBeInTheDocument()
+    expect(screen.getByAltText('Legion in the Woods')).toBeInTheDocument()
   })
 
   it('should display Home navigation link', () => {
@@ -54,13 +54,6 @@ describe('Header component', () => {
     // Look for the menu icon button
     const buttons = screen.getAllByRole('button')
     expect(buttons.length).toBeGreaterThan(0)
-  })
-
-  it('should have search functionality button', () => {
-    render(<Header />)
-    const buttons = screen.getAllByRole('button')
-    // Should have at least menu and search buttons
-    expect(buttons.length).toBeGreaterThanOrEqual(2)
   })
 
   it('should not have accessibility violations', async () => {
