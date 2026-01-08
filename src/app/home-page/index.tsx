@@ -1,27 +1,21 @@
 import React from 'react'
 import Hero from '@/components/home-page/Hero'
-import Mission from '@/components/home-page/Mission'
-import SupportPost from '@/components/home-page/SupportFreeForCharity'
-import PostFeatures from '@/components/home-page/Endowment-Features'
-import OurPrograms from '@/components/home-page/Our-Programs'
-import VolunteerwithUs from '@/components/home-page/Volunteer-with-Us'
-import PostImpact from '@/components/home-page/Results-2023'
-import PostLeadership from '@/components/home-page/TheFreeForCharityTeam'
-import FrequentlyAskedQuestions from '@/components/home-page/FrequentlyAskedQuestions'
+import About from '@/components/home-page/Mission'
+import Menu from '@/components/home-page/Our-Programs'
 import Events from '@/components/home-page/Events'
+import Entertainment from '@/components/home-page/Endowment-Features'
+import Team from '@/components/home-page/TheFreeForCharityTeam'
+import FrequentlyAskedQuestions from '@/components/home-page/FrequentlyAskedQuestions'
 
 const HomePage = () => {
   return (
-    <div>
+    <div className="bg-[#FDF8F3]">
       <Hero />
-      <Mission />
-      <OurPrograms />
+      <About />
+      <Menu />
       <Events />
-      <VolunteerwithUs />
-      <SupportPost />
-      <PostImpact />
-      <PostFeatures />
-      <PostLeadership />
+      <Entertainment />
+      <Team />
       <FrequentlyAskedQuestions />
     </div>
   )

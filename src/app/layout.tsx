@@ -21,20 +21,24 @@ const basePath = process.env.NEXT_PUBLIC_BASE_PATH || ''
 export const metadata: Metadata = {
   metadataBase: new URL('https://legioninthewoods.org'),
   title: {
-    default: 'Nittany American Legion Post 245 | Legion in the Woods',
-    template: '%s | American Legion Post 245',
+    default: 'Legion in the Woods | Restaurant & Bar | State College, PA',
+    template: '%s | Legion in the Woods',
   },
   description:
-    'Nittany American Legion Post 245 in State College, PA - The Legion in the Woods. Serving veterans, their families, and the Centre County community since 1919.',
+    'Legion in the Woods - Restaurant, Bar & Social Club in State College, PA. Great food, drinks, games, darts, and community. Part of Nittany Post 245.',
   keywords: [
-    'American Legion',
-    'veterans',
-    'Post 245',
+    'Legion in the Woods',
+    'restaurant',
+    'bar',
     'State College',
     'Pennsylvania',
-    'Legion in the Woods',
-    'Nittany',
+    'social club',
+    'darts',
+    'games',
+    'dining',
     'Centre County',
+    'fish fry',
+    'trivia night',
   ],
   robots: {
     index: true,
@@ -53,25 +57,25 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     url: 'https://legioninthewoods.org/',
-    siteName: 'American Legion Post 245',
-    title: 'Nittany American Legion Post 245 | Legion in the Woods',
+    siteName: 'Legion in the Woods',
+    title: 'Legion in the Woods | Restaurant & Bar | State College, PA',
     description:
-      'Serving veterans, their families, and the Centre County community since 1919. The Legion in the Woods.',
+      'Great food, drinks, games, and community in State College, PA. Part of Nittany Post 245.',
     images: [
       {
         url: '/web-app-manifest-512x512.png',
         width: 512,
         height: 512,
-        alt: 'American Legion Post 245',
+        alt: 'Legion in the Woods',
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
     site: '@ALPost245',
-    title: 'Nittany American Legion Post 245 | Legion in the Woods',
+    title: 'Legion in the Woods | Restaurant & Bar | State College, PA',
     description:
-      'Serving veterans, their families, and the Centre County community since 1919. The Legion in the Woods.',
+      'Great food, drinks, games, and community in State College, PA. Part of Nittany Post 245.',
     images: ['/web-app-manifest-512x512.png'],
   },
   icons: {
