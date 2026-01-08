@@ -14,16 +14,16 @@ const About = () => {
           className="font-[700] text-[22px] lg:text-[25px] leading-[150%] tracking-[0] text-center mb-[30px] text-[#3D2317]"
           id="lato-font"
         >
-          Legion in the Woods is your neighborhood gathering place for great food,
-          cold drinks, and warm company in State College, Pennsylvania.
+          Legion in the Woods is your neighborhood gathering place for great food, cold drinks, and
+          warm company in State College, Pennsylvania.
         </p>
         <p
           className="font-[500] text-[20px] lg:text-[22px] leading-[150%] tracking-[0] text-center text-[#5D4037] mb-[30px]"
           id="lato-font"
         >
-          Whether you&apos;re joining us for a hearty meal, catching the game at the bar,
-          throwing darts with friends, or trying your luck at our games of chance —
-          there&apos;s always a seat waiting for you at the Legion.
+          Whether you&apos;re joining us for a hearty meal, catching the game at the bar, throwing
+          darts with friends, or trying your luck at our games of chance — there&apos;s always a
+          seat waiting for you at the Legion.
         </p>
 
         {/* Parent Organization Link */}

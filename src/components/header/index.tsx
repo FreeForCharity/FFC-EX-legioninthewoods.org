@@ -83,8 +83,9 @@ const Header: React.FC = () => {
   return (
     <header
       id="header"
-      className={`w-full bg-[#2C1810] shadow-lg fixed top-0 left-0 right-0 z-50 flex items-center transition-all duration-300 ${isScrolled ? 'h-[55px]' : 'h-[80px]'
-        }`}
+      className={`w-full bg-[#2C1810] shadow-lg fixed top-0 left-0 right-0 z-50 flex items-center transition-all duration-300 ${
+        isScrolled ? 'h-[55px]' : 'h-[80px]'
+      }`}
     >
       <div className="w-full">
         <div className="mx-auto max-w-[1080px]">
@@ -112,10 +113,9 @@ const Header: React.FC = () => {
                       <Link
                         href={item.path}
                         onClick={handleLinkClick}
-                        className={`flex items-center px-3 py-2 text-[14px] transition-colors duration-200 ${isActive(item.path)
-                            ? 'text-[#D4A574]'
-                            : 'text-white hover:text-[#D4A574]'
-                          }`}
+                        className={`flex items-center px-3 py-2 text-[14px] transition-colors duration-200 ${
+                          isActive(item.path) ? 'text-[#D4A574]' : 'text-white hover:text-[#D4A574]'
+                        }`}
                       >
                         {item.label}
                       </Link>
@@ -159,8 +159,9 @@ const Header: React.FC = () => {
             animate={{ height: 'auto', opacity: 1 }}
             exit={{ height: 0, opacity: 0 }}
             transition={{ duration: 0.3, ease: 'easeInOut' }}
-            className={`lg:hidden absolute left-0 w-full overflow-hidden z-40 ${isScrolled ? 'top-[53px]' : 'top-[77px]'
-              }`}
+            className={`lg:hidden absolute left-0 w-full overflow-hidden z-40 ${
+              isScrolled ? 'top-[53px]' : 'top-[77px]'
+            }`}
           >
             <div
               className={`max-w-[700px] mx-auto px-6 py-4 bg-[#2C1810] border-t-[3px] border-[#D4A574] shadow-[0_2px_5px_rgba(0,0,0,0.3)] max-h-[80vh] overflow-auto`}
@@ -171,10 +172,11 @@ const Header: React.FC = () => {
                     <Link
                       href={item.path}
                       onClick={handleLinkClick}
-                      className={`block px-4 py-2 rounded-lg text-sm font-[600] ${isActive(item.path)
+                      className={`block px-4 py-2 rounded-lg text-sm font-[600] ${
+                        isActive(item.path)
                           ? 'bg-[#3D2317] text-[#D4A574]'
                           : 'text-white hover:bg-[#3D2317]'
-                        }`}
+                      }`}
                     >
                       {item.label}
                     </Link>

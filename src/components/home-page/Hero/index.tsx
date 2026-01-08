@@ -10,7 +10,8 @@ const Hero = () => {
       <div
         className="absolute inset-0 opacity-10"
         style={{
-          backgroundImage: 'repeating-linear-gradient(90deg, transparent, transparent 50px, rgba(212, 165, 116, 0.1) 50px, rgba(212, 165, 116, 0.1) 51px)',
+          backgroundImage:
+            'repeating-linear-gradient(90deg, transparent, transparent 50px, rgba(212, 165, 116, 0.1) 50px, rgba(212, 165, 116, 0.1) 51px)',
         }}
       />
 

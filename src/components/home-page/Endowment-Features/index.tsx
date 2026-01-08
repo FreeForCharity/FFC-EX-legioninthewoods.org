@@ -1,5 +1,4 @@
 import React from 'react'
-import Image from 'next/image'
 
 const Entertainment = () => {
   return (
@@ -23,7 +22,8 @@ const Entertainment = () => {
               Darts
             </h3>
             <p className="text-[16px] text-[#5D4037]" id="lato-font">
-              Join our dart leagues or play a casual game with friends. We have top-quality boards and a friendly competitive atmosphere.
+              Join our dart leagues or play a casual game with friends. We have top-quality boards
+              and a friendly competitive atmosphere.
             </p>
           </div>
 
@@ -34,7 +34,8 @@ const Entertainment = () => {
               Small Games of Chance
             </h3>
             <p className="text-[16px] text-[#5D4037]" id="lato-font">
-              Try your luck with our variety of small games of chance. It adds an extra layer of excitement to your visit! (Must be 21+)
+              Try your luck with our variety of small games of chance. It adds an extra layer of
+              excitement to your visit! (Must be 21+)
             </p>
           </div>
 
@@ -45,13 +46,13 @@ const Entertainment = () => {
               Trivia & Music
             </h3>
             <p className="text-[16px] text-[#5D4037]" id="lato-font">
-              Test your knowledge at Wild Bill's Trivia nights or enjoy live music during our special dinner events.
+              Test your knowledge at Wild Bill&apos;s Trivia nights or enjoy live music during our
+              special dinner events.
             </p>
           </div>
         </div>
       </div>
       <div className="w-[95%] mt-[50px] mx-auto border border-[#D4A574]"></div>
-
     </div>
   )
 }

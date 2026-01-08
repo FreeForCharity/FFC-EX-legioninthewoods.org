@@ -1,5 +1,5 @@
 import React from 'react'
-import Image from 'next/image'
+
 import OrangeFaqItem from '@/components/ui/OrangeFaqItem'
 
 const FrequentlyAskedQuestions = () => {
@@ -17,10 +17,12 @@ const FrequentlyAskedQuestions = () => {
           <OrangeFaqItem title="Who can visit Legion in the Woods?">
             <ul className="list-disc list-inside text-[#3D2317]">
               <li>
-                <strong>Social Club Members:</strong> Our club is a private social club for members of the American Legion Post 245 and their guests.
+                <strong>Social Club Members:</strong> Our club is a private social club for members
+                of the American Legion Post 245 and their guests.
               </li>
               <li>
-                <strong>Public Events:</strong> Many of our dining events, like Sunday Brunch, are open to the public! Check our event calendar for details.
+                <strong>Public Events:</strong> Many of our dining events, like Sunday Brunch, are
+                open to the public! Check our event calendar for details.
               </li>
             </ul>
           </OrangeFaqItem>
@@ -28,10 +30,12 @@ const FrequentlyAskedQuestions = () => {
           <OrangeFaqItem title="How do I become a member?">
             <ul className="list-disc list-inside text-[#3D2317]">
               <li>
-                Membership is open to eligible veterans (Legionnaires), male descendants of veterans (Sons of the American Legion), and female relatives of veterans (Auxiliary).
+                Membership is open to eligible veterans (Legionnaires), male descendants of veterans
+                (Sons of the American Legion), and female relatives of veterans (Auxiliary).
               </li>
               <li>
-                Social memberships may also be available. Stop by the club to learn more and pick up an application.
+                Social memberships may also be available. Stop by the club to learn more and pick up
+                an application.
               </li>
             </ul>
           </OrangeFaqItem>
@@ -39,18 +43,18 @@ const FrequentlyAskedQuestions = () => {
           <OrangeFaqItem title="Do you have food?">
             <ul className="list-disc list-inside text-[#3D2317]">
               <li>
-                <strong>Yes!</strong> We have a full menu featuring bar favorites like wings, burgers, and fish & chips, plus homestyle dinners.
+                <strong>Yes!</strong> We have a full menu featuring bar favorites like wings,
+                burgers, and fish & chips, plus homestyle dinners.
               </li>
-              <li>
-                Check out our Menu section or download the full PDF to see our offerings.
-              </li>
+              <li>Check out our Menu section or download the full PDF to see our offerings.</li>
             </ul>
           </OrangeFaqItem>
 
           <OrangeFaqItem title="When is the bar open?">
             <ul className="list-disc list-inside text-[#3D2317]">
               <li>
-                We are open daily for members and guests. Please contact us at (814) 237-6880 for current operating hours.
+                We are open daily for members and guests. Please contact us at (814) 237-6880 for
+                current operating hours.
               </li>
             </ul>
           </OrangeFaqItem>

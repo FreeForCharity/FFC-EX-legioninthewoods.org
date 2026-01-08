@@ -60,7 +60,10 @@ const Events = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
           {/* Evening Meals */}
           <div className="bg-[#3D2317] p-6 rounded-lg">
-            <h3 className="text-[24px] font-[600] mb-4 text-[#D4A574] flex items-center gap-2" id="lato-font">
+            <h3
+              className="text-[24px] font-[600] mb-4 text-[#D4A574] flex items-center gap-2"
+              id="lato-font"
+            >
               <span className="text-2xl">🍽️</span> Evening Meals 2026
             </h3>
             <p className="text-[14px] text-white/70 mb-4">Hosted by Legion in the Woods</p>
@@ -76,7 +79,10 @@ const Events = () => {
 
           {/* Lent Fish Fry */}
           <div className="bg-[#3D2317] p-6 rounded-lg">
-            <h3 className="text-[24px] font-[600] mb-4 text-[#D4A574] flex items-center gap-2" id="lato-font">
+            <h3
+              className="text-[24px] font-[600] mb-4 text-[#D4A574] flex items-center gap-2"
+              id="lato-font"
+            >
               <span className="text-2xl">🐟</span> Lent Fish Fry Fridays
             </h3>
             <p className="text-[14px] text-white/70 mb-4">Hosted by Legion in the Woods</p>
@@ -92,7 +98,10 @@ const Events = () => {
 
           {/* Other Events */}
           <div className="bg-[#3D2317] p-6 rounded-lg">
-            <h3 className="text-[24px] font-[600] mb-4 text-[#D4A574] flex items-center gap-2" id="lato-font">
+            <h3
+              className="text-[24px] font-[600] mb-4 text-[#D4A574] flex items-center gap-2"
+              id="lato-font"
+            >
               <span className="text-2xl">🎉</span> Special Events
             </h3>
             <p className="text-[14px] text-white/70 mb-4">Hosted by Legion in the Woods</p>
@@ -108,16 +117,24 @@ const Events = () => {
 
           {/* Sunday Brunches */}
           <div className="bg-[#3D2317] p-6 rounded-lg">
-            <h3 className="text-[24px] font-[600] mb-4 text-[#D4A574] flex items-center gap-2" id="lato-font">
+            <h3
+              className="text-[24px] font-[600] mb-4 text-[#D4A574] flex items-center gap-2"
+              id="lato-font"
+            >
               <span className="text-2xl">🥞</span> Sunday Brunches 2026
             </h3>
             <p className="text-[14px] text-white/70 mb-4">Hosted by Post 245</p>
             <ul className="space-y-2">
               {brunches2026.map((event, idx) => (
-                <li key={idx} className="flex justify-between items-center border-b border-[#D4A574]/20 pb-2">
+                <li
+                  key={idx}
+                  className="flex justify-between items-center border-b border-[#D4A574]/20 pb-2"
+                >
                   <span className="text-[14px] text-white">{event.date}</span>
                   {event.theme && (
-                    <span className="text-[12px] text-[#D4A574] bg-[#2C1810] px-2 py-1 rounded">{event.theme}</span>
+                    <span className="text-[12px] text-[#D4A574] bg-[#2C1810] px-2 py-1 rounded">
+                      {event.theme}
+                    </span>
                   )}
                 </li>
               ))}
