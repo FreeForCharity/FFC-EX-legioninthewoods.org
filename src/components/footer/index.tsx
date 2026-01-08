@@ -4,7 +4,7 @@ import React from 'react'
 import Link from 'next/link'
 import { Mail, Phone, MapPin } from 'lucide-react'
 
-import { FaFacebookF, FaInstagram, FaYoutube } from 'react-icons/fa'
+import { FaFacebookF, FaInstagram, FaYoutube, FaGithub } from 'react-icons/fa'
 import { FaXTwitter } from 'react-icons/fa6'
 
 const Footer: React.FC = () => {
@@ -30,6 +30,12 @@ const Footer: React.FC = () => {
       label: 'YouTube (Add URL)',
       active: false,
       note: 'Add YouTube channel URL',
+    },
+    {
+      icon: FaGithub,
+      href: 'https://github.com/FreeForCharity/FFC-EX-legioninthewoods.org',
+      label: 'GitHub',
+      active: true,
     },
   ]
   return (
