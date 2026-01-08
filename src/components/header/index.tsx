@@ -5,7 +5,6 @@ import Link from 'next/link'
 import { FiMenu } from 'react-icons/fi'
 import { RxCross2 } from 'react-icons/rx'
 import { motion, AnimatePresence } from 'framer-motion'
-import { assetPath } from '@/lib/assetPath'
 
 interface MenuItem {
   label: string
@@ -96,7 +95,7 @@ const Header: React.FC = () => {
             >
               <Link href="/" onClick={handleLinkClick} className="block">
                 <img
-                  src={assetPath('/Images/legion-woods-logo.png')}
+                  src="/Images/legion-woods-logo.png"
                   alt="Legion in the Woods"
                   className={`transition-all duration-300 ${isScrolled ? 'h-10' : 'h-14'}`}
                 />

@@ -80,7 +80,7 @@ const Hero = () => {
         </div>
 
         {/* Right side - Logo/Image */}
-        <div className="relative w-full max-w-[400px] aspect-square bg-white/10 backdrop-blur-sm rounded-full p-8 flex items-center justify-center border-4 border-[#D4A574]/30">
+        <div className="relative w-full max-w-[400px] aspect-square bg-[#FDF8F3] backdrop-blur-sm rounded-full p-8 flex items-center justify-center border-4 border-[#D4A574]/30">
           <div className="relative w-full h-full flex items-center justify-center">
             <img
               src="/Images/legion-woods-logo.png"
