@@ -242,11 +242,11 @@ const Events = () => {
                       className="flex items-start gap-4 p-3 bg-[#FDF8F3] rounded-lg hover:bg-[#FFF3E0] transition-colors border border-transparent hover:border-[#D4A574]/30"
                     >
                       {/* Date Box */}
-                      <div className="flex-shrink-0 flex flex-col items-center justify-center bg-[#D4A574] text-[#2C1810] w-[60px] h-[60px] rounded-lg shadow-sm">
-                        <span className="text-[10px] uppercase font-bold tracking-widest leading-none mb-1 text-white/80">
+                      <div className="flex-shrink-0 flex flex-col items-center justify-center bg-[#D4A574] text-[#2C1810] w-[60px] h-[60px] rounded-lg shadow-sm border border-[#2C1810]/10">
+                        <span className="text-[12px] uppercase font-black tracking-widest leading-none mb-1 text-[#2C1810]">
                           {event.day}
                         </span>
-                        <span className="text-[18px] font-bold leading-none">
+                        <span className="text-[20px] font-black leading-none">
                           {event.date.split(' ')[1]}
                         </span>
                       </div>
