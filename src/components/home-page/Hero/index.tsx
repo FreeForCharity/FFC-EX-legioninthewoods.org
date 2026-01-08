@@ -54,7 +54,9 @@ const Hero = () => {
 
           {/* Primary CTA - Visit Us */}
           <a
-            href="#contact"
+            href="https://www.google.com/maps/search/?api=1&query=1950+Pine+Hall+Road+State+College+PA+16801"
+            target="_blank"
+            rel="noopener noreferrer"
             className="w-[300px] lg:w-[320px] h-[58px] rounded-[29px] px-[32px] py-[18px] flex items-center justify-center gap-[10px] bg-[#D4A574] hover:bg-[#C49464] text-[#2C1810] text-[20px] font-[600] leading-[100%] mb-[15px] whitespace-nowrap transition-colors"
             id="lato-font"
           >

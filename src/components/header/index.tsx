@@ -26,7 +26,6 @@ const Header: React.FC = () => {
       { label: 'Events', path: '/#events' },
       { label: 'Entertainment', path: '/#entertainment' },
       { label: 'Team', path: '/#team' },
-      { label: 'Contact', path: '/#contact' },
     ],
     []
   )
@@ -126,7 +125,9 @@ const Header: React.FC = () => {
               {/* Visit Us CTA */}
               <div className="hidden lg:flex items-center ml-4">
                 <a
-                  href="#contact"
+                  href="https://www.google.com/maps/search/?api=1&query=1950+Pine+Hall+Road+State+College+PA+16801"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="bg-[#D4A574] hover:bg-[#C49464] text-[#2C1810] px-4 py-2 rounded-full text-[14px] font-[600] transition-colors"
                 >
                   Visit Us
@@ -183,7 +184,9 @@ const Header: React.FC = () => {
                 ))}
                 <li>
                   <a
-                    href="#contact"
+                    href="https://www.google.com/maps/search/?api=1&query=1950+Pine+Hall+Road+State+College+PA+16801"
+                    target="_blank"
+                    rel="noopener noreferrer"
                     onClick={handleLinkClick}
                     className="block px-4 py-2 rounded-lg text-sm font-[600] bg-[#D4A574] text-[#2C1810] text-center mt-4"
                   >
