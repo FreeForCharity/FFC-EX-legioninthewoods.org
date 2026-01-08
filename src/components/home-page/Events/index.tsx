@@ -1,168 +1,290 @@
 import React from 'react'
 
+type EventType = 'Brunch' | 'Meal' | 'Event' | 'FishFry'
+
+interface CalendarEvent {
+  date: string
+  day: string
+  type: EventType
+  name: string
+  detail?: string
+}
+
+interface MonthData {
+  name: string
+  events: CalendarEvent[]
+}
+
 const Events = () => {
-  const brunches2026 = [
-    { date: 'Sunday, January 25, 2026', theme: '' },
-    { date: 'Sunday, February 22, 2026', theme: '' },
-    { date: 'Sunday, March 29, 2026', theme: '' },
-    { date: 'Sunday, April 26, 2026', theme: '' },
-    { date: 'Sunday, May 10, 2026', theme: "Mother's Day" },
-    { date: 'Sunday, June 21, 2026', theme: "Father's Day" },
-    { date: 'July 2026', theme: 'No Brunch' },
-    { date: 'August 2026', theme: 'No Brunch' },
-    { date: 'Sunday, September 27, 2026', theme: '' },
-    { date: 'Sunday, October 25, 2026', theme: '' },
-    { date: 'Sunday, November 22, 2026', theme: '' },
-    { date: 'December 2026', theme: 'No Brunch' },
+  const eventTypes = [
+    { type: 'Brunch', icon: '🥞', label: 'Sunday Brunch', host: 'Post 245' },
+    { type: 'Meal', icon: '🍽️', label: 'Evening Meal', host: 'Legion in the Woods' },
+    { type: 'Event', icon: '🎉', label: 'Special Event', host: 'Legion in the Woods' },
+    { type: 'FishFry', icon: '🐟', label: 'Lent Fish Fry', host: 'Legion in the Woods' },
+  ] as const
+
+  const calendarData: MonthData[] = [
+    {
+      name: 'January 2026',
+      events: [
+        {
+          date: 'Jan 22',
+          day: 'Thu',
+          type: 'Meal',
+          name: 'Cabin Fever',
+          detail: 'Comfort Food - Music',
+        },
+        { date: 'Jan 25', day: 'Sun', type: 'Brunch', name: 'Regular Sunday Brunch' },
+      ],
+    },
+    {
+      name: 'February 2026',
+      events: [
+        { date: 'Feb 8', day: 'Sun', type: 'Event', name: 'Super Bowl', detail: 'Chili Contest' },
+        { date: 'Feb 14', day: 'Sat', type: 'Meal', name: "Valentine's Dinner", detail: 'Music' },
+        {
+          date: 'Feb 20',
+          day: 'Fri',
+          type: 'FishFry',
+          name: 'Fish Fry',
+          detail: 'Fish/Mac&Cheese/Slaw',
+        },
+        { date: 'Feb 22', day: 'Sun', type: 'Brunch', name: 'Regular Sunday Brunch' },
+        {
+          date: 'Feb 27',
+          day: 'Fri',
+          type: 'FishFry',
+          name: 'Fish Fry',
+          detail: 'Seafood Gumbo/Rice',
+        },
+      ],
+    },
+    {
+      name: 'March 2026',
+      events: [
+        {
+          date: 'Mar 3',
+          day: 'Tue',
+          type: 'Event',
+          name: "Wild Bill's Trivia",
+          detail: 'Appetizer Specials',
+        },
+        {
+          date: 'Mar 6',
+          day: 'Fri',
+          type: 'FishFry',
+          name: 'Fish Fry',
+          detail: 'Fish/Mac&Cheese/Slaw',
+        },
+        {
+          date: 'Mar 10',
+          day: 'Tue',
+          type: 'Event',
+          name: "Wild Bill's Trivia",
+          detail: 'Appetizer Specials',
+        },
+        {
+          date: 'Mar 13',
+          day: 'Fri',
+          type: 'FishFry',
+          name: 'Fish Fry',
+          detail: 'Seafood Mac&Cheese',
+        },
+        { date: 'Mar 14', day: 'Sat', type: 'Meal', name: "St Patrick's Meal", detail: 'Music' },
+        {
+          date: 'Mar 17',
+          day: 'Tue',
+          type: 'Event',
+          name: "Wild Bill's Trivia",
+          detail: 'Appetizer Specials',
+        },
+        {
+          date: 'Mar 20',
+          day: 'Fri',
+          type: 'FishFry',
+          name: 'Fish Fry',
+          detail: 'Fish/Mac&Cheese/Slaw',
+        },
+        {
+          date: 'Mar 24',
+          day: 'Tue',
+          type: 'Event',
+          name: "Wild Bill's Trivia",
+          detail: 'Appetizer Specials',
+        },
+        {
+          date: 'Mar 27',
+          day: 'Fri',
+          type: 'FishFry',
+          name: 'Fish Fry',
+          detail: "Fish Taco's/Mex Rice",
+        },
+        { date: 'Mar 29', day: 'Sun', type: 'Brunch', name: 'Regular Sunday Brunch' },
+        {
+          date: 'Mar 31',
+          day: 'Tue',
+          type: 'Event',
+          name: "Wild Bill's Trivia",
+          detail: 'Appetizer Specials',
+        },
+      ],
+    },
+    {
+      name: 'April 2026',
+      events: [
+        { date: 'Apr 3', day: 'Fri', type: 'FishFry', name: 'Fish Fry', detail: 'Fish/Mac&Cheese' },
+        {
+          date: 'Apr 15',
+          day: 'Wed',
+          type: 'Meal',
+          name: 'Steak Bake',
+          detail: 'Grilled Outdoors',
+        },
+        { date: 'Apr 26', day: 'Sun', type: 'Brunch', name: 'Regular Sunday Brunch' },
+      ],
+    },
+    {
+      name: 'May 2026',
+      events: [
+        { date: 'May 10', day: 'Sun', type: 'Brunch', name: "Mother's Day Brunch" },
+        { date: 'May 16', day: 'Sat', type: 'Event', name: 'Rib Cookoff' },
+      ],
+    },
+    {
+      name: 'June 2026',
+      events: [{ date: 'Jun 21', day: 'Sun', type: 'Brunch', name: "Father's Day Brunch" }],
+    },
+    {
+      name: 'July 2026',
+      events: [],
+    },
+    {
+      name: 'August 2026',
+      events: [],
+    },
+    {
+      name: 'September 2026',
+      events: [{ date: 'Sep 27', day: 'Sun', type: 'Brunch', name: 'Regular Sunday Brunch' }],
+    },
+    {
+      name: 'October 2026',
+      events: [
+        { date: 'Oct TBD', day: '', type: 'Event', name: 'Okto-BEE-fest', detail: 'October Fest' },
+        { date: 'Oct 25', day: 'Sun', type: 'Brunch', name: 'Regular Sunday Brunch' },
+      ],
+    },
+    {
+      name: 'November 2026',
+      events: [{ date: 'Nov 22', day: 'Sun', type: 'Brunch', name: 'Regular Sunday Brunch' }],
+    },
+    {
+      name: 'December 2026',
+      events: [],
+    },
   ]
 
-  const eveningMeals2026 = [
-    { date: 'Thursday, January 22, 2026', theme: 'Cabin Fever - Comfort Food - Music' },
-    { date: 'Saturday, February 14, 2026', theme: "Valentine's Dinner - Music" },
-    { date: 'Saturday, March 14, 2026', theme: "St Patrick's Style Meal - Music" },
-    { date: 'Wednesday, April 15, 2026', theme: 'Steak Bake - Grilled Outdoors' },
-  ]
-
-  const otherEvents = [
-    { date: 'Sunday, February 8, 2026', theme: 'Super Bowl - Chili Contest' },
-    { date: 'Tuesday, March 3, 2026', theme: "Wild Bill's Trivia - Appetizer Specials" },
-    { date: 'Tuesday, March 10, 2026', theme: "Wild Bill's Trivia - Appetizer Specials" },
-    { date: 'Tuesday, March 17, 2026', theme: "Wild Bill's Trivia - Appetizer Specials" },
-    { date: 'Tuesday, March 24, 2026', theme: "Wild Bill's Trivia - Appetizer Specials" },
-    { date: 'Tuesday, March 31, 2026', theme: "Wild Bill's Trivia - Appetizer Specials" },
-    { date: 'Saturday, May 16, 2026', theme: 'Rib Cookoff' },
-    { date: 'October 2026 (Bye Week)', theme: 'Okto-BEE-fest, October Fest' },
-  ]
-
-  const lentEvents = [
-    { date: 'Friday, February 20, 2026', theme: 'Fish/Mac&Cheese/Slaw/Stewed Tomatoes' },
-    { date: 'Friday, February 27, 2026', theme: 'Seafood Gumbo/Rice/Corn Bread' },
-    { date: 'Friday, March 6, 2026', theme: 'Fish/Mac&Cheese/Slaw/Stewed Tomatoes' },
-    { date: 'Friday, March 13, 2026', theme: 'Seafood Mac&Cheese/Onion Rings' },
-    { date: 'Friday, March 20, 2026', theme: 'Fish/Mac&Cheese/Slaw/Stewed Tomatoes' },
-    { date: 'Friday, March 27, 2026', theme: "Fish Taco's/Mex Rice/Lime Wedge" },
-    { date: 'Friday, April 3, 2026', theme: 'Fish/Mac&Cheese/Stewed Tomatoes' },
-  ]
+  const getTypeIcon = (type: EventType) => {
+    return eventTypes.find((t) => t.type === type)?.icon || '📅'
+  }
 
   return (
-    <div id="events" className="py-[60px] bg-[#2C1810]">
+    <div id="events" className="py-[80px] bg-[#2C1810]">
       <div className="w-[90%] mx-auto max-w-[1280px]">
-        <h2
-          className="font-[400] text-[40px] lg:text-[48px] leading-[100%] tracking-[0] text-center mx-auto mb-[20px] text-white"
-          id="faustina-font"
-        >
-          2026 Events Calendar
-        </h2>
-        <p className="text-center text-[20px] text-[#D4A574] mb-[50px]" id="lato-font">
-          Special dinners, trivia nights, and community gatherings
-        </p>
-
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
-          {/* Evening Meals */}
-          <div className="bg-[#3D2317] p-6 rounded-lg">
-            <h3
-              className="text-[24px] font-[600] mb-4 text-[#D4A574] flex items-center gap-2"
-              id="lato-font"
-            >
-              <span className="text-2xl">🍽️</span> Evening Meals 2026
-            </h3>
-            <p className="text-[14px] text-white/70 mb-4">Hosted by Legion in the Woods</p>
-            <ul className="space-y-3">
-              {eveningMeals2026.map((event, idx) => (
-                <li key={idx} className="border-b border-[#D4A574]/20 pb-3">
-                  <p className="text-[16px] font-[600] text-white">{event.date}</p>
-                  <p className="text-[14px] text-[#D4A574]">{event.theme}</p>
-                </li>
-              ))}
-            </ul>
-          </div>
-
-          {/* Lent Fish Fry */}
-          <div className="bg-[#3D2317] p-6 rounded-lg">
-            <h3
-              className="text-[24px] font-[600] mb-4 text-[#D4A574] flex items-center gap-2"
-              id="lato-font"
-            >
-              <span className="text-2xl">🐟</span> Lent Fish Fry Fridays
-            </h3>
-            <p className="text-[14px] text-white/70 mb-4">Hosted by Legion in the Woods</p>
-            <ul className="space-y-3">
-              {lentEvents.map((event, idx) => (
-                <li key={idx} className="border-b border-[#D4A574]/20 pb-3">
-                  <p className="text-[16px] font-[600] text-white">{event.date}</p>
-                  <p className="text-[14px] text-[#D4A574]">{event.theme}</p>
-                </li>
-              ))}
-            </ul>
-          </div>
-
-          {/* Other Events */}
-          <div className="bg-[#3D2317] p-6 rounded-lg">
-            <h3
-              className="text-[24px] font-[600] mb-4 text-[#D4A574] flex items-center gap-2"
-              id="lato-font"
-            >
-              <span className="text-2xl">🎉</span> Special Events
-            </h3>
-            <p className="text-[14px] text-white/70 mb-4">Hosted by Legion in the Woods</p>
-            <ul className="space-y-3">
-              {otherEvents.map((event, idx) => (
-                <li key={idx} className="border-b border-[#D4A574]/20 pb-3">
-                  <p className="text-[16px] font-[600] text-white">{event.date}</p>
-                  <p className="text-[14px] text-[#D4A574]">{event.theme}</p>
-                </li>
-              ))}
-            </ul>
-          </div>
-
-          {/* Sunday Brunches */}
-          <div className="bg-[#3D2317] p-6 rounded-lg">
-            <h3
-              className="text-[24px] font-[600] mb-4 text-[#D4A574] flex items-center gap-2"
-              id="lato-font"
-            >
-              <span className="text-2xl">🥞</span> Sunday Brunches 2026
-            </h3>
-            <p className="text-[14px] text-white/70 mb-4">Hosted by Post 245</p>
-            <ul className="space-y-2">
-              {brunches2026.map((event, idx) => (
-                <li
-                  key={idx}
-                  className="flex justify-between items-center border-b border-[#D4A574]/20 pb-2"
-                >
-                  <span className="text-[14px] text-white">{event.date}</span>
-                  {event.theme && (
-                    <span className="text-[12px] text-[#D4A574] bg-[#2C1810] px-2 py-1 rounded">
-                      {event.theme}
-                    </span>
-                  )}
-                </li>
-              ))}
-            </ul>
-          </div>
+        {/* Header */}
+        <div className="text-center mb-[60px]">
+          <h2
+            className="font-[400] text-[40px] lg:text-[56px] leading-[100%] text-white mb-[20px]"
+            id="faustina-font"
+          >
+            2026 Events Calendar
+          </h2>
+          <p className="text-[20px] text-[#D4A574]" id="lato-font">
+            Join the community at Legion in the Woods
+          </p>
         </div>
 
-        {/* CTA */}
-        <div className="text-center mt-12">
+        {/* Legend / Event Types */}
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-[60px] bg-[#3D2317] p-6 rounded-2xl border border-[#D4A574]/20">
+          {eventTypes.map((type, idx) => (
+            <div key={idx} className="flex flex-col items-center text-center p-2">
+              <span className="text-3xl mb-2">{type.icon}</span>
+              <span className="text-[#D4A574] font-bold text-lg mb-1">{type.label}</span>
+              <span className="text-white/60 text-sm">Hosted by {type.host}</span>
+            </div>
+          ))}
+        </div>
+
+        {/* Calendar Grid */}
+        <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6">
+          {calendarData.map((month, idx) => {
+            if (month.events.length === 0) return null // Hide empty months or keep for layout? User said "see all events...". Hiding empty is better.
+
+            return (
+              <div
+                key={idx}
+                className="bg-[#FDF8F3] rounded-xl overflow-hidden shadow-lg border-2 border-[#D4A574]/20"
+              >
+                {/* Month Header */}
+                <div className="bg-[#3D2317] py-3 px-5 border-b-4 border-[#D4A574]">
+                  <h3
+                    className="text-[#D4A574] text-xl font-bold uppercase tracking-wider text-center"
+                    id="lato-font"
+                  >
+                    {month.name}
+                  </h3>
+                </div>
+
+                {/* Events List */}
+                <div className="p-4 space-y-3">
+                  {month.events.map((event, eIdx) => (
+                    <div
+                      key={eIdx}
+                      className="flex items-start gap-4 p-3 bg-white/50 rounded-lg hover:bg-white transition-colors"
+                    >
+                      {/* Date Box */}
+                      <div className="flex-shrink-0 flex flex-col items-center justify-center bg-[#2C1810] text-[#D4A574] w-[60px] h-[60px] rounded-lg border border-[#D4A574]/30">
+                        <span className="text-[10px] uppercase font-bold tracking-widest leading-none mb-1">
+                          {event.day}
+                        </span>
+                        <span className="text-[18px] font-bold leading-none">
+                          {event.date.split(' ')[1]}
+                        </span>
+                      </div>
+
+                      {/* Event Info */}
+                      <div className="flex-grow">
+                        <div className="flex items-center gap-2 mb-1">
+                          <span className="text-lg" aria-hidden="true">
+                            {getTypeIcon(event.type)}
+                          </span>
+                          <span className="text-[12px] uppercase font-bold text-[#5D4037] bg-[#D4A574]/10 px-2 py-0.5 rounded-full">
+                            {eventTypes.find((t) => t.type === event.type)?.label}
+                          </span>
+                        </div>
+                        <h4 className="text-[#2C1810] font-bold text-[16px] leading-tight">
+                          {event.name}
+                        </h4>
+                        {event.detail && (
+                          <p className="text-[#5D4037] text-[13px] mt-1 italic">{event.detail}</p>
+                        )}
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            )
+          })}
+        </div>
+
+        {/* CTA Footer */}
+        <div className="text-center mt-16">
           <a
-            href="#contact"
-            className="inline-flex items-center gap-2 bg-[#D4A574] hover:bg-[#C49464] text-[#2C1810] px-8 py-4 rounded-full text-[18px] font-[600] transition-colors"
+            href="#contact-footer"
+            className="inline-flex items-center gap-2 bg-[#D4A574] hover:bg-[#C49464] text-[#2C1810] px-8 py-4 rounded-full text-[18px] font-[600] transition-colors shadow-lg shadow-[#D4A574]/20"
             id="lato-font"
           >
-            Join Us for an Event
+            Contact to Book Tickets
           </a>
-          <p className="text-[14px] text-white/60 mt-4" id="lato-font">
-            Follow us on{' '}
-            <a
-              href="https://www.facebook.com/people/American-Legion-Post-245/100064092967036/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-[#D4A574] hover:underline"
-            >
-              Facebook
-            </a>{' '}
-            for updates and announcements
-          </p>
         </div>
       </div>
     </div>
