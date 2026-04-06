@@ -279,11 +279,13 @@ const Events = () => {
         {/* CTA Footer */}
         <div className="text-center mt-16">
           <a
-            href="#contact-footer"
+            href="https://www.zeffy.com/en-US/ticketing/reeeal-good-bbq"
+            target="_blank"
+            rel="noopener noreferrer"
             className="inline-flex items-center gap-2 bg-[#D4A574] hover:bg-[#C49464] text-[#2C1810] px-8 py-4 rounded-full text-[18px] font-[600] transition-colors shadow-lg shadow-[#D4A574]/20"
             id="lato-font"
           >
-            Contact to Book Tickets
+            Buy BBQ Tickets
           </a>
         </div>
       </div>
