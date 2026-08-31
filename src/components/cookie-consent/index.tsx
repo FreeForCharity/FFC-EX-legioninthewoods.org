@@ -3,7 +3,7 @@
 import { useState, useEffect, useRef, useCallback } from 'react'
 import Link from 'next/link'
 import { isConfigured } from '@/lib/analytics.config'
-import { updateGoogleConsent } from '@/lib/consent-mode'
+import { updateGoogleConsent, type ConsentPreferences } from '@/lib/consent-mode'
 
 // Environment variables for tracking IDs (replace with actual values)
 const GA_MEASUREMENT_ID = process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID || 'G-XXXXXXXXXX'
@@ -24,12 +24,11 @@ declare global {
   }
 }
 
-interface CookiePreferences {
-  necessary: boolean
-  functional: boolean
-  analytics: boolean
-  marketing: boolean
-}
+// The banner's preference shape IS the one updateGoogleConsent consumes.
+// Aliasing rather than redeclaring keeps them structurally locked together,
+// so a category added to the consent model cannot be silently missed here
+// (or vice versa) while both still typecheck.
+type CookiePreferences = ConsentPreferences
 
 export default function CookieConsent() {
   const [showBanner, setShowBanner] = useState(false)
